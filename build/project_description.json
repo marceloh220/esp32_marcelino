@@ -1,7 +1,7 @@
 {
     "version":            "1",
     "project_name":       "marcelino",
-    "project_version":    "1",
+    "project_version":    "729d225-dirty",
     "project_path":       "C:/Users/marce/esp-idf/marcelino",
     "idf_path":           "C:/Espressif/frameworks/esp-idf-v5.1.1-2",
     "build_dir":          "C:/Users/marce/esp-idf/marcelino/build",

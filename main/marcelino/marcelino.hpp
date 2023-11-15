@@ -17,4 +17,8 @@
 #include "semaphore.hpp"
 #include "eventGroup.hpp"
 
+#include "queue.hpp"
+
+#include "timer.hpp"
+
 #endif

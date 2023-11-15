@@ -1,0 +1,4965 @@
+eׁJun  8��16 00:&&��SH�HH�t:0x1 (�]I=9}ISET),boo��x13 (S�}FAST_FLP*�%==Q����˥�ͥ�� 0, SPIWP:�5
+clkE���0x00,\E���0x00,�E���0x0b��_dr�'��0,hdE���0x00��}����0�0
+mode:T�	�����div:1
+�+��0x3ff�30,len�Ӓj
+loX����0078��,len:16M�SHload���008040bb���4
+h� tail �����4
+�+��0x40404,leK��84
+en��0x400��68
+[0;32mI (30) boot: ESP-IDF v5.1.1-dirty 2nd stage bootloader[0m
+[0;32mI (30) boot: compile time Nov 11 2023 12:23:34[0m
+[0;32mI (30) boot: Multicore bootloader[0m
+[0;32mI (35) boot: chip revision: v1.0[0m
+[0;32mI (39) qio_mode: Enabling default flash chip QIO[0m
+[0;32mI (44) boot.esp32: SPI Speed      : 80MHz[0m
+[0;32mI (49) boot.esp32: SPI Mode       : QIO[0m
+[0;32mI (53) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (58) boot: Enabling RNG early entropy source...[0m
+[0;32mI (63) boot: Partition Table:[0m
+[0;32mI (67) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (74) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (81) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (89) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (96) boot: End of partition table[0m
+[0;32mI (101) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0a014h ( 40980) map[0m
+[0;32mI (120) esp_image: segment 1: paddr=0001a03c vaddr=3ffb0000 size=02158h (  8536) load[0m
+[0;32mI (123) esp_image: segment 2: paddr=0001c19c vaddr=40080000 size=03e7ch ( 15996) load[0m
+[0;32mI (134) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=180d0h ( 98512) map[0m
+[0;32mI (164) esp_image: segment 4: paddr=000380f8 vaddr=40083e7c size=08410h ( 33808) load[0m
+[0;32mI (181) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (181) boot: Disabling RNG early entropy source...[0m
+[0;32mI (193) cpu_start: Multicore app[0m
+[0;32mI (193) cpu_start: Pro cpu up.[0m
+[0;32mI (193) cpu_start: Starting app cpu, entry point is 0x400811e0[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (211) cpu_start: Pro cpu start user code[0m
+[0;32mI (211) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (211) cpu_start: Application information:[0m
+[0;32mI (216) cpu_start: Project name:     marcelino[0m
+[0;32mI (221) cpu_start: App version:      729d225-dirty[0m
+[0;32mI (227) cpu_start: Compile time:     Nov 11 2023 12:23:09[0m
+[0;32mI (233) cpu_start: ELF file SHA256:  25f8341237a0f77a...[0m
+[0;32mI (239) cpu_start: ESP-IDF:          v5.1.1-dirty[0m
+[0;32mI (244) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (249) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (254) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (258) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (266) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (272) heap_init: At 3FFB2A28 len 0002D5D8 (181 KiB): DRAM[0m
+[0;32mI (278) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (284) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (291) heap_init: At 4008C28C len 00013D74 (79 KiB): IRAM[0m
+[0;32mI (297) spi_flash: detected chip: generic[0m
+[0;32mI (301) spi_flash: flash io: qio[0m
+[0;32mI (305) Blink LED G: Task created[0m
+[0;32mI (309) Print MSG: Task created[0m
+[0;32mI (314) app_start: Starting scheduler on CPU0[0m
+[0;32mI (318) app_start: Starting scheduler on CPU1[0m
+[0;32mI (318) main_task: Started on CPU0[0m
+[0;32mI (328) main_task: Calling app_main()[0m
+Time: 0 s
+Time: 1 s
+Time: 2 s
+Time: 3 s
+Time: 4 s
+Time: 5 s
+Time: 6 s
+Time: 7 s
+Time: 8 s
+Time: 9 s
+Time: 10 s
+Time: 11 s
+Time: 12 s
+Time: 13 s
+Time: 14 s
+Time: 15 s
+Time: 16 s
+Time: 17 s
+Time: 18 s
+Time: 19 s
+Time: 20 s
+Time: 21 s
+Time: 22 s
+Time: 23 s
+Time: 24 s
+Time: 25 s
+Time: 26 s
+Time: 27 s
+Time: 28 s
+Time: 29 s
+Time: 30 s
+Time: 31 s
+Time: 32 s
+Time: 33 s
+Time: 34 s
+Time: 35 s
+Time: 36 s
+Time: 37 s
+Time: 38 s
+Time: 39 s
+Time: 40 s
+Time: 41 s
+Time: 42 s
+Time: 43 s
+Time: 44 s
+Time: 45 s
+Time: 46 s
+Time: 47 s
+Time: 48 s
+Time: 49 s
+Time: 50 s
+Time: 51 s
+Time: 52 s
+Time: 53 s
+Time: 54 s
+Time: 55 s
+Time: 56 s
+Time: 57 s
+Time: 58 s
+Time: 59 s
+Time: 60 s
+Time: 61 s
+Time: 62 s
+Time: 63 s
+Time: 64 s
+Time: 65 s
+Time: 66 s
+Time: 67 s
+Time: 68 s
+Time: 69 s
+Time: 70 s
+Time: 71 s
+Time: 72 s
+Time: 73 s
+Time: 74 s
+Time: 75 s
+Time: 76 s
+Time: 77 s
+Time: 78 s
+Time: 79 s
+Time: 80 s
+Time: 81 s
+Time: 82 s
+Time: 83 s
+Time: 84 s
+Time: 85 s
+Time: 86 s
+Time: 87 s
+Time: 88 s
+Time: 89 s
+Time: 90 s
+Time: 91 s
+Time: 92 s
+Time: 93 s
+Time: 94 s
+Time: 95 s
+Time: 96 s
+Time: 97 s
+Time: 98 s
+Time: 99 s
+Time: 100 s
+Time: 101 s
+Time: 102 s
+Time: 103 s
+Time: 104 s
+Time: 105 s
+Time: 106 s
+Time: 107 s
+Time: 108 s
+Time: 109 s
+Time: 110 s
+Time: 111 s
+Time: 112 s
+Time: 113 s
+Time: 114 s
+Time: 115 s
+Time: 116 s
+Time: 117 s
+Time: 118 s
+Time: 119 s
+Time: 120 s
+Time: 121 s
+Time: 122 s
+Time: 123 s
+Time: 124 s
+Time: 125 s
+Time: 126 s
+Time: 127 s
+Time: 128 s
+Time: 129 s
+Time: 130 s
+Time: 131 s
+Time: 132 s
+Time: 133 s
+Time: 134 s
+Time: 135 s
+Time: 136 s
+Time: 137 s
+Time: 138 s
+Time: 139 s
+Time: 140 s
+Time: 141 s
+Time: 142 s
+Time: 143 s
+Time: 144 s
+Time: 145 s
+Time: 146 s
+Time: 147 s
+Time: 148 s
+Time: 149 s
+Time: 150 s
+Time: 151 s
+Time: 152 s
+Time: 153 s
+Time: 154 s
+Time: 155 s
+Time: 156 s
+Time: 157 s
+Time: 158 s
+Time: 159 s
+Time: 160 s
+Time: 161 s
+Time: 162 s
+Time: 163 s
+Time: 164 s
+Time: 165 s
+Time: 166 s
+Time: 167 s
+Time: 168 s
+Time: 169 s
+Time: 170 s
+Time: 171 s
+Time: 172 s
+Time: 173 s
+Time: 174 s
+Time: 175 s
+Time: 176 s
+Time: 177 s
+Time: 178 s
+Time: 179 s
+Time: 180 s
+Time: 181 s
+Time: 182 s
+Time: 183 s
+Time: 184 s
+Time: 185 s
+Time: 186 s
+Time: 187 s
+Time: 188 s
+Time: 189 s
+Time: 190 s
+Time: 191 s
+Time: 192 s
+Time: 193 s
+Time: 194 s
+Time: 195 s
+Time: 196 s
+Time: 197 s
+Time: 198 s
+Time: 199 s
+Time: 200 s
+Time: 201 s
+Time: 202 s
+Time: 203 s
+Time: 204 s
+Time: 205 s
+Time: 206 s
+Time: 207 s
+Time: 208 s
+Time: 209 s
+Time: 210 s
+Time: 211 s
+Time: 212 s
+Time: 213 s
+Time: 214 s
+Time: 215 s
+Time: 216 s
+Time: 217 s
+Time: 218 s
+Time: 219 s
+Time: 220 s
+Time: 221 s
+Time: 222 s
+Time: 223 s
+Time: 224 s
+Time: 225 s
+Time: 226 s
+Time: 227 s
+Time: 228 s
+Time: 229 s
+Time: 230 s
+Time: 231 s
+Time: 232 s
+Time: 233 s
+Time: 234 s
+Time: 235 s
+Time: 236 s
+Time: 237 s
+Time: 238 s
+Time: 239 s
+Time: 240 s
+Time: 241 s
+Time: 242 s
+Time: 243 s
+Time: 244 s
+Time: 245 s
+Time: 246 s
+Time: 247 s
+Time: 248 s
+Time: 249 s
+Time: 250 s
+Time: 251 s
+Time: 252 s
+Time: 253 s
+Time: 254 s
+Time: 255 s
+Time: 256 s
+Time: 257 s
+Time: 258 s
+Time: 259 s
+Time: 260 s
+Time: 261 s
+Time: 262 s
+Time: 263 s
+Time: 264 s
+Time: 265 s
+Time: 266 s
+Time: 267 s
+Time: 268 s
+Time: 269 s
+Time: 270 s
+Time: 271 s
+Time: 272 s
+Time: 273 s
+Time: 274 s
+Time: 275 s
+Time: 276 s
+Time: 277 s
+Time: 278 s
+Time: 279 s
+Time: 280 s
+Time: 281 s
+Time: 282 s
+Time: 283 s
+Time: 284 s
+Time: 285 s
+Time: 286 s
+Time: 287 s
+Time: 288 s
+Time: 289 s
+Time: 290 s
+Time: 291 s
+Time: 292 s
+Time: 293 s
+Time: 294 s
+Time: 295 s
+Time: 296 s
+Time: 297 s
+Time: 298 s
+Time: 299 s
+Time: 300 s
+Time: 301 s
+Time: 302 s
+Time: 303 s
+Time: 304 s
+Time: 305 s
+Time: 306 s
+Time: 307 s
+Time: 308 s
+Time: 309 s
+Time: 310 s
+Time: 311 s
+Time: 312 s
+Time: 313 s
+Time: 314 s
+Time: 315 s
+Time: 316 s
+Time: 317 s
+Time: 318 s
+Time: 319 s
+Time: 320 s
+Time: 321 s
+Time: 322 s
+Time: 323 s
+Time: 324 s
+Time: 325 s
+Time: 326 s
+Time: 327 s
+Time: 328 s
+Time: 329 s
+Time: 330 s
+Time: 331 s
+Time: 332 s
+Time: 333 s
+Time: 334 s
+Time: 335 s
+Time: 336 s
+Time: 337 s
+Time: 338 s
+Time: 339 s
+Time: 340 s
+Time: 341 s
+Time: 342 s
+Time: 343 s
+Time: 344 s
+Time: 345 s
+Time: 346 s
+Time: 347 s
+Time: 348 s
+Time: 349 s
+Time: 350 s
+Time: 351 s
+Time: 352 s
+Time: 353 s
+Time: 354 s
+Time: 355 s
+Time: 356 s
+Time: 357 s
+Time: 358 s
+Time: 359 s
+Time: 360 s
+Time: 361 s
+Time: 362 s
+Time: 363 s
+Time: 364 s
+Time: 365 s
+Time: 366 s
+Time: 367 s
+Time: 368 s
+Time: 369 s
+Time: 370 s
+Time: 371 s
+Time: 372 s
+Time: 373 s
+Time: 374 s
+Time: 375 s
+Time: 376 s
+Time: 377 s
+Time: 378 s
+Time: 379 s
+Time: 380 s
+Time: 381 s
+Time: 382 s
+Time: 383 s
+Time: 384 s
+Time: 385 s
+Time: 386 s
+Time: 387 s
+Time: 388 s
+Time: 389 s
+Time: 390 s
+Time: 391 s
+Time: 392 s
+Time: 393 s
+Time: 394 s
+Time: 395 s
+Time: 396 s
+Time: 397 s
+Time: 398 s
+Time: 399 s
+Time: 400 s
+Time: 401 s
+Time: 402 s
+Time: 403 s
+Time: 404 s
+Time: 405 s
+Time: 406 s
+Time: 407 s
+Time: 408 s
+Time: 409 s
+Time: 410 s
+Time: 411 s
+Time: 412 s
+Time: 413 s
+Time: 414 s
+Time: 415 s
+Time: 416 s
+Time: 417 s
+Time: 418 s
+Time: 419 s
+Time: 420 s
+Time: 421 s
+Time: 422 s
+Time: 423 s
+Time: 424 s
+Time: 425 s
+Time: 426 s
+Time: 427 s
+Time: 428 s
+Time: 429 s
+Time: 430 s
+Time: 431 s
+Time: 432 s
+Time: 433 s
+Time: 434 s
+Time: 435 s
+Time: 436 s
+Time: 437 s
+Time: 438 s
+Time: 439 s
+Time: 440 s
+Time: 441 s
+Time: 442 s
+Time: 443 s
+Time: 444 s
+Time: 445 s
+Time: 446 s
+Time: 447 s
+Time: 448 s
+Time: 449 s
+Time: 450 s
+Time: 451 s
+Time: 452 s
+Time: 453 s
+Time: 454 s
+Time: 455 s
+Time: 456 s
+Time: 457 s
+Time: 458 s
+Time: 459 s
+Time: 460 s
+Time: 461 s
+Time: 462 s
+Time: 463 s
+Time: 464 s
+Time: 465 s
+Time: 466 s
+Time: 467 s
+Time: 468 s
+Time: 469 s
+Time: 470 s
+Time: 471 s
+Time: 472 s
+Time: 473 s
+Time: 474 s
+Time: 475 s
+Time: 476 s
+Time: 477 s
+Time: 478 s
+Time: 479 s
+Time: 480 s
+Time: 481 s
+Time: 482 s
+Time: 483 s
+Time: 484 s
+Time: 485 s
+Time: 486 s
+Time: 487 s
+Time: 488 s
+Time: 489 s
+Time: 490 s
+Time: 491 s
+Time: 492 s
+Time: 493 s
+Time: 494 s
+Time: 495 s
+Time: 496 s
+Time: 497 s
+Time: 498 s
+Time: 499 s
+Time: 500 s
+Time: 501 s
+Time: 502 s
+Time: 503 s
+Time: 504 s
+Time: 505 s
+Time: 506 s
+Time: 507 s
+Time: 508 s
+Time: 509 s
+Time: 510 s
+Time: 511 s
+Time: 512 s
+Time: 513 s
+Time: 514 s
+Time: 515 s
+Time: 516 s
+Time: 517 s
+Time: 518 s
+Time: 519 s
+Time: 520 s
+Time: 521 s
+Time: 522 s
+Time: 523 s
+Time: 524 s
+Time: 525 s
+Time: 526 s
+Time: 527 s
+Time: 528 s
+Time: 529 s
+Time: 530 s
+Time: 531 s
+Time: 532 s
+Time: 533 s
+Time: 534 s
+Time: 535 s
+Time: 536 s
+Time: 537 s
+Time: 538 s
+Time: 539 s
+Time: 540 s
+Time: 541 s
+Time: 542 s
+Time: 543 s
+Time: 544 s
+Time: 545 s
+Time: 546 s
+Time: 547 s
+Time: 548 s
+Time: 549 s
+Time: 550 s
+Time: 551 s
+Time: 552 s
+Time: 553 s
+Time: 554 s
+Time: 555 s
+Time: 556 s
+Time: 557 s
+Time: 558 s
+Time: 559 s
+Time: 560 s
+Time: 561 s
+Time: 562 s
+Time: 563 s
+Time: 564 s
+Time: 565 s
+Time: 566 s
+Time: 567 s
+Time: 568 s
+Time: 569 s
+Time: 570 s
+Time: 571 s
+Time: 572 s
+Time: 573 s
+Time: 574 s
+Time: 575 s
+Time: 576 s
+Time: 577 s
+Time: 578 s
+Time: 579 s
+Time: 580 s
+Time: 581 s
+Time: 582 s
+Time: 583 s
+Time: 584 s
+Time: 585 s
+Time: 586 s
+Time: 587 s
+Time: 588 s
+Time: 589 s
+Time: 590 s
+Time: 591 s
+Time: 592 s
+Time: 593 s
+Time: 594 s
+Time: 595 s
+Time: 596 s
+Time: 597 s
+Time: 598 s
+Time: 599 s
+Time: 600 s
+Time: 601 s
+Time: 602 s
+Time: 603 s
+Time: 604 s
+Time: 605 s
+Time: 606 s
+Time: 607 s
+Time: 608 s
+Time: 609 s
+Time: 610 s
+Time: 611 s
+Time: 612 s
+Time: 613 s
+Time: 614 s
+Time: 615 s
+Time: 616 s
+Time: 617 s
+Time: 618 s
+Time: 619 s
+Time: 620 s
+Time: 621 s
+Time: 622 s
+Time: 623 s
+Time: 624 s
+Time: 625 s
+Time: 626 s
+Time: 627 s
+Time: 628 s
+Time: 629 s
+Time: 630 s
+Time: 631 s
+Time: 632 s
+Time: 633 s
+Time: 634 s
+Time: 635 s
+Time: 636 s
+Time: 637 s
+Time: 638 s
+Time: 639 s
+Time: 640 s
+Time: 641 s
+Time: 642 s
+Time: 643 s
+Time: 644 s
+Time: 645 s
+Time: 646 s
+Time: 647 s
+Time: 648 s
+Time: 649 s
+Time: 650 s
+Time: 651 s
+Time: 652 s
+Time: 653 s
+Time: 654 s
+Time: 655 s
+Time: 656 s
+Time: 657 s
+Time: 658 s
+Time: 659 s
+Time: 660 s
+Time: 661 s
+Time: 662 s
+Time: 663 s
+Time: 664 s
+Time: 665 s
+Time: 666 s
+Time: 667 s
+Time: 668 s
+Time: 669 s
+Time: 670 s
+Time: 671 s
+Time: 672 s
+Time: 673 s
+Time: 674 s
+Time: 675 s
+Time: 676 s
+Time: 677 s
+Time: 678 s
+Time: 679 s
+Time: 680 s
+Time: 681 s
+Time: 682 s
+Time: 683 s
+Time: 684 s
+Time: 685 s
+Time: 686 s
+Time: 687 s
+Time: 688 s
+Time: 689 s
+Time: 690 s
+Time: 691 s
+Time: 692 s
+Time: 693 s
+Time: 694 s
+Time: 695 s
+Time: 696 s
+Time: 697 s
+Time: 698 s
+Time: 699 s
+Time: 700 s
+Time: 701 s
+Time: 702 s
+Time: 703 s
+Time: 704 s
+Time: 705 s
+Time: 706 s
+Time: 707 s
+Time: 708 s
+Time: 709 s
+Time: 710 s
+Time: 711 s
+Time: 712 s
+Time: 713 s
+Time: 714 s
+Time: 715 s
+Time: 716 s
+Time: 717 s
+Time: 718 s
+Time: 719 s
+Time: 720 s
+Time: 721 s
+Time: 722 s
+Time: 723 s
+Time: 724 s
+Time: 725 s
+Time: 726 s
+Time: 727 s
+Time: 728 s
+Time: 729 s
+Time: 730 s
+Time: 731 s
+Time: 732 s
+Time: 733 s
+Time: 734 s
+Time: 735 s
+Time: 736 s
+Time: 737 s
+Time: 738 s
+Time: 739 s
+Time: 740 s
+Time: 741 s
+Time: 742 s
+Time: 743 s
+Time: 744 s
+Time: 745 s
+Time: 746 s
+Time: 747 s
+Time: 748 s
+Time: 749 s
+Time: 750 s
+Time: 751 s
+Time: 752 s
+Time: 753 s
+Time: 754 s
+Time: 755 s
+Time: 756 s
+Time: 757 s
+Time: 758 s
+Time: 759 s
+Time: 760 s
+Time: 761 s
+Time: 762 s
+Time: 763 s
+Time: 764 s
+Time: 765 s
+Time: 766 s
+Time: 767 s
+Time: 768 s
+Time: 769 s
+Time: 770 s
+Time: 771 s
+Time: 772 s
+Time: 773 s
+Time: 774 s
+Time: 775 s
+Time: 776 s
+Time: 777 s
+Time: 778 s
+Time: 779 s
+Time: 780 s
+Time: 781 s
+Time: 782 s
+Time: 783 s
+Time: 784 s
+Time: 785 s
+Time: 786 s
+Time: 787 s
+Time: 788 s
+Time: 789 s
+Time: 790 s
+Time: 791 s
+Time: 792 s
+Time: 793 s
+Time: 794 s
+Time: 795 s
+Time: 796 s
+Time: 797 s
+Time: 798 s
+Time: 799 s
+Time: 800 s
+Time: 801 s
+Time: 802 s
+Time: 803 s
+Time: 804 s
+Time: 805 s
+Time: 806 s
+Time: 807 s
+Time: 808 s
+Time: 809 s
+Time: 810 s
+Time: 811 s
+Time: 812 s
+Time: 813 s
+Time: 814 s
+Time: 815 s
+Time: 816 s
+Time: 817 s
+Time: 818 s
+Time: 819 s
+Time: 820 s
+Time: 821 s
+Time: 822 s
+Time: 823 s
+Time: 824 s
+Time: 825 s
+Time: 826 s
+Time: 827 s
+Time: 828 s
+Time: 829 s
+Time: 830 s
+Time: 831 s
+Time: 832 s
+Time: 833 s
+Time: 834 s
+Time: 835 s
+Time: 836 s
+Time: 837 s
+Time: 838 s
+Time: 839 s
+Time: 840 s
+Time: 841 s
+Time: 842 s
+Time: 843 s
+Time: 844 s
+Time: 845 s
+Time: 846 s
+Time: 847 s
+Time: 848 s
+Time: 849 s
+Time: 850 s
+Time: 851 s
+Time: 852 s
+Time: 853 s
+Time: 854 s
+Time: 855 s
+Time: 856 s
+Time: 857 s
+Time: 858 s
+Time: 859 s
+Time: 860 s
+Time: 861 s
+Time: 862 s
+Time: 863 s
+Time: 864 s
+Time: 865 s
+Time: 866 s
+Time: 867 s
+Time: 868 s
+Time: 869 s
+Time: 870 s
+Time: 871 s
+Time: 872 s
+Time: 873 s
+Time: 874 s
+Time: 875 s
+Time: 876 s
+Time: 877 s
+Time: 878 s
+Time: 879 s
+Time: 880 s
+Time: 881 s
+Time: 882 s
+Time: 883 s
+Time: 884 s
+Time: 885 s
+Time: 886 s
+Time: 887 s
+Time: 888 s
+Time: 889 s
+Time: 890 s
+Time: 891 s
+Time: 892 s
+Time: 893 s
+Time: 894 s
+Time: 895 s
+Time: 896 s
+Time: 897 s
+Time: 898 s
+Time: 899 s
+Time: 900 s
+Time: 901 s
+Time: 902 s
+Time: 903 s
+Time: 904 s
+Time: 905 s
+Time: 906 s
+Time: 907 s
+Time: 908 s
+Time: 909 s
+Time: 910 s
+Time: 911 s
+Time: 912 s
+Time: 913 s
+Time: 914 s
+Time: 915 s
+Time: 916 s
+Time: 917 s
+Time: 918 s
+Time: 919 s
+Time: 920 s
+Time: 921 s
+Time: 922 s
+Time: 923 s
+Time: 924 s
+Time: 925 s
+Time: 926 s
+Time: 927 s
+Time: 928 s
+Time: 929 s
+Time: 930 s
+Time: 931 s
+Time: 932 s
+Time: 933 s
+Time: 934 s
+Time: 935 s
+Time: 936 s
+Time: 937 s
+Time: 938 s
+Time: 939 s
+Time: 940 s
+Time: 941 s
+Time: 942 s
+Time: 943 s
+Time: 944 s
+Time: 945 s
+Time: 946 s
+Time: 947 s
+Time: 948 s
+Time: 949 s
+Time: 950 s
+Time: 951 s
+Time: 952 s
+Time: 953 s
+Time: 954 s
+Time: 955 s
+Time: 956 s
+Time: 957 s
+Time: 958 s
+Time: 959 s
+Time: 960 s
+Time: 961 s
+Time: 962 s
+Time: 963 s
+Time: 964 s
+Time: 965 s
+Time: 966 s
+Time: 967 s
+Time: 968 s
+Time: 969 s
+Time: 970 s
+Time: 971 s
+Time: 972 s
+Time: 973 s
+Time: 974 s
+Time: 975 s
+Time: 976 s
+Time: 977 s
+Time: 978 s
+Time: 979 s
+Time: 980 s
+Time: 981 s
+Time: 982 s
+Time: 983 s
+Time: 984 s
+Time: 985 s
+Time: 986 s
+Time: 987 s
+Time: 988 s
+Time: 989 s
+Time: 990 s
+Time: 991 s
+Time: 992 s
+Time: 993 s
+Time: 994 s
+Time: 995 s
+Time: 996 s
+Time: 997 s
+Time: 998 s
+Time: 999 s
+Time: 1000 s
+Time: 1001 s
+Time: 1002 s
+Time: 1003 s
+Time: 1004 s
+Time: 1005 s
+Time: 1006 s
+Time: 1007 s
+Time: 1008 s
+Time: 1009 s
+Time: 1010 s
+Time: 1011 s
+Time: 1012 s
+Time: 1013 s
+Time: 1014 s
+Time: 1015 s
+Time: 1016 s
+Time: 1017 s
+Time: 1018 s
+Time: 1019 s
+Time: 1020 s
+Time: 1021 s
+Time: 1022 s
+Time: 1023 s
+Time: 1024 s
+Time: 1025 s
+Time: 1026 s
+Time: 1027 s
+Time: 1028 s
+Time: 1029 s
+Time: 1030 s
+Time: 1031 s
+Time: 1032 s
+Time: 1033 s
+Time: 1034 s
+Time: 1035 s
+Time: 1036 s
+Time: 1037 s
+Time: 1038 s
+Time: 1039 s
+Time: 1040 s
+Time: 1041 s
+Time: 1042 s
+Time: 1043 s
+Time: 1044 s
+Time: 1045 s
+Time: 1046 s
+Time: 1047 s
+Time: 1048 s
+Time: 1049 s
+Time: 1050 s
+Time: 1051 s
+Time: 1052 s
+Time: 1053 s
+Time: 1054 s
+Time: 1055 s
+Time: 1056 s
+Time: 1057 s
+Time: 1058 s
+Time: 1059 s
+Time: 1060 s
+Time: 1061 s
+Time: 1062 s
+Time: 1063 s
+Time: 1064 s
+Time: 1065 s
+Time: 1066 s
+Time: 1067 s
+Time: 1068 s
+Time: 1069 s
+Time: 1070 s
+Time: 1071 s
+Time: 1072 s
+Time: 1073 s
+Time: 1074 s
+Time: 1075 s
+Time: 1076 s
+Time: 1077 s
+Time: 1078 s
+Time: 1079 s
+Time: 1080 s
+Time: 1081 s
+Time: 1082 s
+Time: 1083 s
+Time: 1084 s
+Time: 1085 s
+Time: 1086 s
+Time: 1087 s
+Time: 1088 s
+Time: 1089 s
+Time: 1090 s
+Time: 1091 s
+Time: 1092 s
+Time: 1093 s
+Time: 1094 s
+Time: 1095 s
+Time: 1096 s
+Time: 1097 s
+Time: 1098 s
+Time: 1099 s
+Time: 1100 s
+Time: 1101 s
+Time: 1102 s
+Time: 1103 s
+Time: 1104 s
+Time: 1105 s
+Time: 1106 s
+Time: 1107 s
+Time: 1108 s
+Time: 1109 s
+Time: 1110 s
+Time: 1111 s
+Time: 1112 s
+Time: 1113 s
+Time: 1114 s
+Time: 1115 s
+Time: 1116 s
+Time: 1117 s
+Time: 1118 s
+Time: 1119 s
+Time: 1120 s
+Time: 1121 s
+Time: 1122 s
+Time: 1123 s
+Time: 1124 s
+Time: 1125 s
+Time: 1126 s
+Time: 1127 s
+Time: 1128 s
+Time: 1129 s
+Time: 1130 s
+Time: 1131 s
+Time: 1132 s
+Time: 1133 s
+Time: 1134 s
+Time: 1135 s
+Time: 1136 s
+Time: 1137 s
+Time: 1138 s
+Time: 1139 s
+Time: 1140 s
+Time: 1141 s
+Time: 1142 s
+Time: 1143 s
+Time: 1144 s
+Time: 1145 s
+Time: 1146 s
+Time: 1147 s
+Time: 1148 s
+Time: 1149 s
+Time: 1150 s
+Time: 1151 s
+Time: 1152 s
+Time: 1153 s
+Time: 1154 s
+Time: 1155 s
+Time: 1156 s
+Time: 1157 s
+Time: 1158 s
+Time: 1159 s
+Time: 1160 s
+Time: 1161 s
+Time: 1162 s
+Time: 1163 s
+Time: 1164 s
+Time: 1165 s
+Time: 1166 s
+Time: 1167 s
+Time: 1168 s
+Time: 1169 s
+Time: 1170 s
+Time: 1171 s
+Time: 1172 s
+Time: 1173 s
+Time: 1174 s
+Time: 1175 s
+Time: 1176 s
+Time: 1177 s
+Time: 1178 s
+Time: 1179 s
+Time: 1180 s
+Time: 1181 s
+Time: 1182 s
+Time: 1183 s
+Time: 1184 s
+Time: 1185 s
+Time: 1186 s
+Time: 1187 s
+Time: 1188 s
+Time: 1189 s
+Time: 1190 s
+Time: 1191 s
+Time: 1192 s
+Time: 1193 s
+Time: 1194 s
+Time: 1195 s
+Time: 1196 s
+Time: 1197 s
+Time: 1198 s
+Time: 1199 s
+Time: 1200 s
+Time: 1201 s
+Time: 1202 s
+Time: 1203 s
+Time: 1204 s
+Time: 1205 s
+Time: 1206 s
+Time: 1207 s
+Time: 1208 s
+Time: 1209 s
+Time: 1210 s
+Time: 1211 s
+Time: 1212 s
+Time: 1213 s
+Time: 1214 s
+Time: 1215 s
+Time: 1216 s
+Time: 1217 s
+Time: 1218 s
+Time: 1219 s
+Time: 1220 s
+Time: 1221 s
+Time: 1222 s
+Time: 1223 s
+Time: 1224 s
+Time: 1225 s
+Time: 1226 s
+Time: 1227 s
+Time: 1228 s
+Time: 1229 s
+Time: 1230 s
+Time: 1231 s
+Time: 1232 s
+Time: 1233 s
+Time: 1234 s
+Time: 1235 s
+Time: 1236 s
+Time: 1237 s
+Time: 1238 s
+Time: 1239 s
+Time: 1240 s
+Time: 1241 s
+Time: 1242 s
+Time: 1243 s
+Time: 1244 s
+Time: 1245 s
+Time: 1246 s
+Time: 1247 s
+Time: 1248 s
+Time: 1249 s
+Time: 1250 s
+Time: 1251 s
+Time: 1252 s
+Time: 1253 s
+Time: 1254 s
+Time: 1255 s
+Time: 1256 s
+Time: 1257 s
+Time: 1258 s
+Time: 1259 s
+Time: 1260 s
+Time: 1261 s
+Time: 1262 s
+Time: 1263 s
+Time: 1264 s
+Time: 1265 s
+Time: 1266 s
+Time: 1267 s
+Time: 1268 s
+Time: 1269 s
+Time: 1270 s
+Time: 1271 s
+Time: 1272 s
+Time: 1273 s
+Time: 1274 s
+Time: 1275 s
+Time: 1276 s
+Time: 1277 s
+Time: 1278 s
+Time: 1279 s
+Time: 1280 s
+Time: 1281 s
+Time: 1282 s
+Time: 1283 s
+Time: 1284 s
+Time: 1285 s
+Time: 1286 s
+Time: 1287 s
+Time: 1288 s
+Time: 1289 s
+Time: 1290 s
+Time: 1291 s
+Time: 1292 s
+Time: 1293 s
+Time: 1294 s
+Time: 1295 s
+Time: 1296 s
+Time: 1297 s
+Time: 1298 s
+Time: 1299 s
+Time: 1300 s
+Time: 1301 s
+Time: 1302 s
+Time: 1303 s
+Time: 1304 s
+Time: 1305 s
+Time: 1306 s
+Time: 1307 s
+Time: 1308 s
+Time: 1309 s
+Time: 1310 s
+Time: 1311 s
+Time: 1312 s
+Time: 1313 s
+Time: 1314 s
+Time: 1315 s
+Time: 1316 s
+Time: 1317 s
+Time: 1318 s
+Time: 1319 s
+Time: 1320 s
+Time: 1321 s
+Time: 1322 s
+Time: 1323 s
+Time: 1324 s
+Time: 1325 s
+Time: 1326 s
+Time: 1327 s
+Time: 1328 s
+Time: 1329 s
+Time: 1330 s
+Time: 1331 s
+Time: 1332 s
+Time: 1333 s
+Time: 1334 s
+Time: 1335 s
+Time: 1336 s
+Time: 1337 s
+Time: 1338 s
+Time: 1339 s
+Time: 1340 s
+Time: 1341 s
+Time: 1342 s
+Time: 1343 s
+Time: 1344 s
+Time: 1345 s
+Time: 1346 s
+Time: 1347 s
+Time: 1348 s
+Time: 1349 s
+Time: 1350 s
+Time: 1351 s
+Time: 1352 s
+Time: 1353 s
+Time: 1354 s
+Time: 1355 s
+Time: 1356 s
+Time: 1357 s
+Time: 1358 s
+Time: 1359 s
+Time: 1360 s
+Time: 1361 s
+Time: 1362 s
+Time: 1363 s
+Time: 1364 s
+Time: 1365 s
+Time: 1366 s
+Time: 1367 s
+Time: 1368 s
+Time: 1369 s
+Time: 1370 s
+Time: 1371 s
+Time: 1372 s
+Time: 1373 s
+Time: 1374 s
+Time: 1375 s
+Time: 1376 s
+Time: 1377 s
+Time: 1378 s
+Time: 1379 s
+Time: 1380 s
+Time: 1381 s
+Time: 1382 s
+Time: 1383 s
+Time: 1384 s
+Time: 1385 s
+Time: 1386 s
+Time: 1387 s
+Time: 1388 s
+Time: 1389 s
+Time: 1390 s
+Time: 1391 s
+Time: 1392 s
+Time: 1393 s
+Time: 1394 s
+Time: 1395 s
+Time: 1396 s
+Time: 1397 s
+Time: 1398 s
+Time: 1399 s
+Time: 1400 s
+Time: 1401 s
+Time: 1402 s
+Time: 1403 s
+Time: 1404 s
+Time: 1405 s
+Time: 1406 s
+Time: 1407 s
+Time: 1408 s
+Time: 1409 s
+Time: 1410 s
+Time: 1411 s
+Time: 1412 s
+Time: 1413 s
+Time: 1414 s
+Time: 1415 s
+Time: 1416 s
+Time: 1417 s
+Time: 1418 s
+Time: 1419 s
+Time: 1420 s
+Time: 1421 s
+Time: 1422 s
+Time: 1423 s
+Time: 1424 s
+Time: 1425 s
+Time: 1426 s
+Time: 1427 s
+Time: 1428 s
+Time: 1429 s
+Time: 1430 s
+Time: 1431 s
+Time: 1432 s
+Time: 1433 s
+Time: 1434 s
+Time: 1435 s
+Time: 1436 s
+Time: 1437 s
+Time: 1438 s
+Time: 1439 s
+Time: 1440 s
+Time: 1441 s
+Time: 1442 s
+Time: 1443 s
+Time: 1444 s
+Time: 1445 s
+Time: 1446 s
+Time: 1447 s
+Time: 1448 s
+Time: 1449 s
+Time: 1450 s
+Time: 1451 s
+Time: 1452 s
+Time: 1453 s
+Time: 1454 s
+Time: 1455 s
+Time: 1456 s
+Time: 1457 s
+Time: 1458 s
+Time: 1459 s
+Time: 1460 s
+Time: 1461 s
+Time: 1462 s
+Time: 1463 s
+Time: 1464 s
+Time: 1465 s
+Time: 1466 s
+Time: 1467 s
+Time: 1468 s
+Time: 1469 s
+Time: 1470 s
+Time: 1471 s
+Time: 1472 s
+Time: 1473 s
+Time: 1474 s
+Time: 1475 s
+Time: 1476 s
+Time: 1477 s
+Time: 1478 s
+Time: 1479 s
+Time: 1480 s
+Time: 1481 s
+Time: 1482 s
+Time: 1483 s
+Time: 1484 s
+Time: 1485 s
+Time: 1486 s
+Time: 1487 s
+Time: 1488 s
+Time: 1489 s
+Time: 1490 s
+Time: 1491 s
+Time: 1492 s
+Time: 1493 s
+Time: 1494 s
+Time: 1495 s
+Time: 1496 s
+Time: 1497 s
+Time: 1498 s
+Time: 1499 s
+Time: 1500 s
+Time: 1501 s
+Time: 1502 s
+Time: 1503 s
+Time: 1504 s
+Time: 1505 s
+Time: 1506 s
+Time: 1507 s
+Time: 1508 s
+Time: 1509 s
+Time: 1510 s
+Time: 1511 s
+Time: 1512 s
+Time: 1513 s
+Time: 1514 s
+Time: 1515 s
+Time: 1516 s
+Time: 1517 s
+Time: 1518 s
+Time: 1519 s
+Time: 1520 s
+Time: 1521 s
+Time: 1522 s
+Time: 1523 s
+Time: 1524 s
+Time: 1525 s
+Time: 1526 s
+Time: 1527 s
+Time: 1528 s
+Time: 1529 s
+Time: 1530 s
+Time: 1531 s
+Time: 1532 s
+Time: 1533 s
+Time: 1534 s
+Time: 1535 s
+Time: 1536 s
+Time: 1537 s
+Time: 1538 s
+Time: 1539 s
+Time: 1540 s
+Time: 1541 s
+Time: 1542 s
+Time: 1543 s
+Time: 1544 s
+Time: 1545 s
+Time: 1546 s
+Time: 1547 s
+Time: 1548 s
+Time: 1549 s
+Time: 1550 s
+Time: 1551 s
+Time: 1552 s
+Time: 1553 s
+Time: 1554 s
+Time: 1555 s
+Time: 1556 s
+Time: 1557 s
+Time: 1558 s
+Time: 1559 s
+Time: 1560 s
+Time: 1561 s
+Time: 1562 s
+Time: 1563 s
+Time: 1564 s
+Time: 1565 s
+Time: 1566 s
+Time: 1567 s
+Time: 1568 s
+Time: 1569 s
+Time: 1570 s
+Time: 1571 s
+Time: 1572 s
+Time: 1573 s
+Time: 1574 s
+Time: 1575 s
+Time: 1576 s
+Time: 1577 s
+Time: 1578 s
+Time: 1579 s
+Time: 1580 s
+Time: 1581 s
+Time: 1582 s
+Time: 1583 s
+Time: 1584 s
+Time: 1585 s
+Time: 1586 s
+Time: 1587 s
+Time: 1588 s
+Time: 1589 s
+Time: 1590 s
+Time: 1591 s
+Time: 1592 s
+Time: 1593 s
+Time: 1594 s
+Time: 1595 s
+Time: 1596 s
+Time: 1597 s
+Time: 1598 s
+Time: 1599 s
+Time: 1600 s
+Time: 1601 s
+Time: 1602 s
+Time: 1603 s
+Time: 1604 s
+Time: 1605 s
+Time: 1606 s
+Time: 1607 s
+Time: 1608 s
+Time: 1609 s
+Time: 1610 s
+Time: 1611 s
+Time: 1612 s
+Time: 1613 s
+Time: 1614 s
+Time: 1615 s
+Time: 1616 s
+Time: 1617 s
+Time: 1618 s
+Time: 1619 s
+Time: 1620 s
+Time: 1621 s
+Time: 1622 s
+Time: 1623 s
+Time: 1624 s
+Time: 1625 s
+Time: 1626 s
+Time: 1627 s
+Time: 1628 s
+Time: 1629 s
+Time: 1630 s
+Time: 1631 s
+Time: 1632 s
+Time: 1633 s
+Time: 1634 s
+Time: 1635 s
+Time: 1636 s
+Time: 1637 s
+Time: 1638 s
+Time: 1639 s
+Time: 1640 s
+Time: 1641 s
+Time: 1642 s
+Time: 1643 s
+Time: 1644 s
+Time: 1645 s
+Time: 1646 s
+Time: 1647 s
+Time: 1648 s
+Time: 1649 s
+Time: 1650 s
+Time: 1651 s
+Time: 1652 s
+Time: 1653 s
+Time: 1654 s
+Time: 1655 s
+Time: 1656 s
+Time: 1657 s
+Time: 1658 s
+Time: 1659 s
+Time: 1660 s
+Time: 1661 s
+Time: 1662 s
+Time: 1663 s
+Time: 1664 s
+Time: 1665 s
+Time: 1666 s
+Time: 1667 s
+Time: 1668 s
+Time: 1669 s
+Time: 1670 s
+Time: 1671 s
+Time: 1672 s
+Time: 1673 s
+Time: 1674 s
+Time: 1675 s
+Time: 1676 s
+Time: 1677 s
+Time: 1678 s
+Time: 1679 s
+Time: 1680 s
+Time: 1681 s
+Time: 1682 s
+Time: 1683 s
+Time: 1684 s
+Time: 1685 s
+Time: 1686 s
+Time: 1687 s
+Time: 1688 s
+Time: 1689 s
+Time: 1690 s
+Time: 1691 s
+Time: 1692 s
+Time: 1693 s
+Time: 1694 s
+Time: 1695 s
+Time: 1696 s
+Time: 1697 s
+Time: 1698 s
+Time: 1699 s
+Time: 1700 s
+Time: 1701 s
+Time: 1702 s
+Time: 1703 s
+Time: 1704 s
+Time: 1705 s
+Time: 1706 s
+Time: 1707 s
+Time: 1708 s
+Time: 1709 s
+Time: 1710 s
+Time: 1711 s
+Time: 1712 s
+Time: 1713 s
+Time: 1714 s
+Time: 1715 s
+Time: 1716 s
+Time: 1717 s
+Time: 1718 s
+Time: 1719 s
+Time: 1720 s
+Time: 1721 s
+Time: 1722 s
+Time: 1723 s
+Time: 1724 s
+Time: 1725 s
+Time: 1726 s
+Time: 1727 s
+Time: 1728 s
+Time: 1729 s
+Time: 1730 s
+Time: 1731 s
+Time: 1732 s
+Time: 1733 s
+Time: 1734 s
+Time: 1735 s
+Time: 1736 s
+Time: 1737 s
+Time: 1738 s
+Time: 1739 s
+Time: 1740 s
+Time: 1741 s
+Time: 1742 s
+Time: 1743 s
+Time: 1744 s
+Time: 1745 s
+Time: 1746 s
+Time: 1747 s
+Time: 1748 s
+Time: 1749 s
+Time: 1750 s
+Time: 1751 s
+Time: 1752 s
+Time: 1753 s
+Time: 1754 s
+Time: 1755 s
+Time: 1756 s
+Time: 1757 s
+Time: 1758 s
+Time: 1759 s
+Time: 1760 s
+Time: 1761 s
+Time: 1762 s
+Time: 1763 s
+Time: 1764 s
+Time: 1765 s
+Time: 1766 s
+Time: 1767 s
+Time: 1768 s
+Time: 1769 s
+Time: 1770 s
+Time: 1771 s
+Time: 1772 s
+Time: 1773 s
+Time: 1774 s
+Time: 1775 s
+Time: 1776 s
+Time: 1777 s
+Time: 1778 s
+Time: 1779 s
+Time: 1780 s
+Time: 1781 s
+Time: 1782 s
+Time: 1783 s
+Time: 1784 s
+Time: 1785 s
+Time: 1786 s
+Time: 1787 s
+Time: 1788 s
+Time: 1789 s
+Time: 1790 s
+Time: 1791 s
+Time: 1792 s
+Time: 1793 s
+Time: 1794 s
+Time: 1795 s
+Time: 1796 s
+Time: 1797 s
+Time: 1798 s
+Time: 1799 s
+Time: 1800 s
+Time: 1801 s
+Time: 1802 s
+Time: 1803 s
+Time: 1804 s
+Time: 1805 s
+Time: 1806 s
+Time: 1807 s
+Time: 1808 s
+Time: 1809 s
+Time: 1810 s
+Time: 1811 s
+Time: 1812 s
+Time: 1813 s
+Time: 1814 s
+Time: 1815 s
+Time: 1816 s
+Time: 1817 s
+Time: 1818 s
+Time: 1819 s
+Time: 1820 s
+Time: 1821 s
+Time: 1822 s
+Time: 1823 s
+Time: 1824 s
+Time: 1825 s
+Time: 1826 s
+Time: 1827 s
+Time: 1828 s
+Time: 1829 s
+Time: 1830 s
+Time: 1831 s
+Time: 1832 s
+Time: 1833 s
+Time: 1834 s
+Time: 1835 s
+Time: 1836 s
+Time: 1837 s
+Time: 1838 s
+Time: 1839 s
+Time: 1840 s
+Time: 1841 s
+Time: 1842 s
+Time: 1843 s
+Time: 1844 s
+Time: 1845 s
+Time: 1846 s
+Time: 1847 s
+Time: 1848 s
+Time: 1849 s
+Time: 1850 s
+Time: 1851 s
+Time: 1852 s
+Time: 1853 s
+Time: 1854 s
+Time: 1855 s
+Time: 1856 s
+Time: 1857 s
+Time: 1858 s
+Time: 1859 s
+Time: 1860 s
+Time: 1861 s
+Time: 1862 s
+Time: 1863 s
+Time: 1864 s
+Time: 1865 s
+Time: 1866 s
+Time: 1867 s
+Time: 1868 s
+Time: 1869 s
+Time: 1870 s
+Time: 1871 s
+Time: 1872 s
+Time: 1873 s
+Time: 1874 s
+Time: 1875 s
+Time: 1876 s
+Time: 1877 s
+Time: 1878 s
+Time: 1879 s
+Time: 1880 s
+Time: 1881 s
+Time: 1882 s
+Time: 1883 s
+Time: 1884 s
+Time: 1885 s
+Time: 1886 s
+Time: 1887 s
+Time: 1888 s
+Time: 1889 s
+Time: 1890 s
+Time: 1891 s
+Time: 1892 s
+Time: 1893 s
+Time: 1894 s
+Time: 1895 s
+Time: 1896 s
+Time: 1897 s
+Time: 1898 s
+Time: 1899 s
+Time: 1900 s
+Time: 1901 s
+Time: 1902 s
+Time: 1903 s
+Time: 1904 s
+Time: 1905 s
+Time: 1906 s
+Time: 1907 s
+Time: 1908 s
+Time: 1909 s
+Time: 1910 s
+Time: 1911 s
+Time: 1912 s
+Time: 1913 s
+Time: 1914 s
+Time: 1915 s
+Time: 1916 s
+Time: 1917 s
+Time: 1918 s
+Time: 1919 s
+Time: 1920 s
+Time: 1921 s
+Time: 1922 s
+Time: 1923 s
+Time: 1924 s
+Time: 1925 s
+Time: 1926 s
+Time: 1927 s
+Time: 1928 s
+Time: 1929 s
+Time: 1930 s
+Time: 1931 s
+Time: 1932 s
+Time: 1933 s
+Time: 1934 s
+Time: 1935 s
+Time: 1936 s
+Time: 1937 s
+Time: 1938 s
+Time: 1939 s
+Time: 1940 s
+Time: 1941 s
+Time: 1942 s
+Time: 1943 s
+Time: 1944 s
+Time: 1945 s
+Time: 1946 s
+Time: 1947 s
+Time: 1948 s
+Time: 1949 s
+Time: 1950 s
+Time: 1951 s
+Time: 1952 s
+Time: 1953 s
+Time: 1954 s
+Time: 1955 s
+Time: 1956 s
+Time: 1957 s
+Time: 1958 s
+Time: 1959 s
+Time: 1960 s
+Time: 1961 s
+Time: 1962 s
+Time: 1963 s
+Time: 1964 s
+Time: 1965 s
+Time: 1966 s
+Time: 1967 s
+Time: 1968 s
+Time: 1969 s
+Time: 1970 s
+Time: 1971 s
+Time: 1972 s
+Time: 1973 s
+Time: 1974 s
+Time: 1975 s
+Time: 1976 s
+Time: 1977 s
+Time: 1978 s
+Time: 1979 s
+Time: 1980 s
+Time: 1981 s
+Time: 1982 s
+Time: 1983 s
+Time: 1984 s
+Time: 1985 s
+Time: 1986 s
+Time: 1987 s
+Time: 1988 s
+Time: 1989 s
+Time: 1990 s
+Time: 1991 s
+Time: 1992 s
+Time: 1993 s
+Time: 1994 s
+Time: 1995 s
+Time: 1996 s
+Time: 1997 s
+Time: 1998 s
+Time: 1999 s
+Time: 2000 s
+Time: 2001 s
+Time: 2002 s
+Time: 2003 s
+Time: 2004 s
+Time: 2005 s
+Time: 2006 s
+Time: 2007 s
+Time: 2008 s
+Time: 2009 s
+Time: 2010 s
+Time: 2011 s
+Time: 2012 s
+Time: 2013 s
+Time: 2014 s
+Time: 2015 s
+Time: 2016 s
+Time: 2017 s
+Time: 2018 s
+Time: 2019 s
+Time: 2020 s
+Time: 2021 s
+Time: 2022 s
+Time: 2023 s
+Time: 2024 s
+Time: 2025 s
+Time: 2026 s
+Time: 2027 s
+Time: 2028 s
+Time: 2029 s
+Time: 2030 s
+Time: 2031 s
+Time: 2032 s
+Time: 2033 s
+Time: 2034 s
+Time: 2035 s
+Time: 2036 s
+Time: 2037 s
+Time: 2038 s
+Time: 2039 s
+Time: 2040 s
+Time: 2041 s
+Time: 2042 s
+Time: 2043 s
+Time: 2044 s
+Time: 2045 s
+Time: 2046 s
+Time: 2047 s
+Time: 2048 s
+Time: 2049 s
+Time: 2050 s
+Time: 2051 s
+Time: 2052 s
+Time: 2053 s
+Time: 2054 s
+Time: 2055 s
+Time: 2056 s
+Time: 2057 s
+Time: 2058 s
+Time: 2059 s
+Time: 2060 s
+Time: 2061 s
+Time: 2062 s
+Time: 2063 s
+Time: 2064 s
+Time: 2065 s
+Time: 2066 s
+Time: 2067 s
+Time: 2068 s
+Time: 2069 s
+Time: 2070 s
+Time: 2071 s
+Time: 2072 s
+Time: 2073 s
+Time: 2074 s
+Time: 2075 s
+Time: 2076 s
+Time: 2077 s
+Time: 2078 s
+Time: 2079 s
+Time: 2080 s
+Time: 2081 s
+Time: 2082 s
+Time: 2083 s
+Time: 2084 s
+Time: 2085 s
+Time: 2086 s
+Time: 2087 s
+Time: 2088 s
+Time: 2089 s
+Time: 2090 s
+Time: 2091 s
+Time: 2092 s
+Time: 2093 s
+Time: 2094 s
+Time: 2095 s
+Time: 2096 s
+Time: 2097 s
+Time: 2098 s
+Time: 2099 s
+Time: 2100 s
+Time: 2101 s
+Time: 2102 s
+Time: 2103 s
+Time: 2104 s
+Time: 2105 s
+Time: 2106 s
+Time: 2107 s
+Time: 2108 s
+Time: 2109 s
+Time: 2110 s
+Time: 2111 s
+Time: 2112 s
+Time: 2113 s
+Time: 2114 s
+Time: 2115 s
+Time: 2116 s
+Time: 2117 s
+Time: 2118 s
+Time: 2119 s
+Time: 2120 s
+Time: 2121 s
+Time: 2122 s
+Time: 2123 s
+Time: 2124 s
+Time: 2125 s
+Time: 2126 s
+Time: 2127 s
+Time: 2128 s
+Time: 2129 s
+Time: 2130 s
+Time: 2131 s
+Time: 2132 s
+Time: 2133 s
+Time: 2134 s
+Time: 2135 s
+Time: 2136 s
+Time: 2137 s
+Time: 2138 s
+Time: 2139 s
+Time: 2140 s
+Time: 2141 s
+Time: 2142 s
+Time: 2143 s
+Time: 2144 s
+Time: 2145 s
+Time: 2146 s
+Time: 2147 s
+Time: 2148 s
+Time: 2149 s
+Time: 2150 s
+Time: 2151 s
+Time: 2152 s
+Time: 2153 s
+Time: 2154 s
+Time: 2155 s
+Time: 2156 s
+Time: 2157 s
+Time: 2158 s
+Time: 2159 s
+Time: 2160 s
+Time: 2161 s
+Time: 2162 s
+Time: 2163 s
+Time: 2164 s
+Time: 2165 s
+Time: 2166 s
+Time: 2167 s
+Time: 2168 s
+Time: 2169 s
+Time: 2170 s
+Time: 2171 s
+Time: 2172 s
+Time: 2173 s
+Time: 2174 s
+Time: 2175 s
+Time: 2176 s
+Time: 2177 s
+Time: 2178 s
+Time: 2179 s
+Time: 2180 s
+Time: 2181 s
+Time: 2182 s
+Time: 2183 s
+Time: 2184 s
+Time: 2185 s
+Time: 2186 s
+Time: 2187 s
+Time: 2188 s
+Time: 2189 s
+Time: 2190 s
+Time: 2191 s
+Time: 2192 s
+Time: 2193 s
+Time: 2194 s
+Time: 2195 s
+Time: 2196 s
+Time: 2197 s
+Time: 2198 s
+Time: 2199 s
+Time: 2200 s
+Time: 2201 s
+Time: 2202 s
+Time: 2203 s
+Time: 2204 s
+Time: 2205 s
+Time: 2206 s
+Time: 2207 s
+Time: 2208 s
+Time: 2209 s
+Time: 2210 s
+Time: 2211 s
+Time: 2212 s
+Time: 2213 s
+Time: 2214 s
+Time: 2215 s
+Time: 2216 s
+Time: 2217 s
+Time: 2218 s
+Time: 2219 s
+Time: 2220 s
+Time: 2221 s
+Time: 2222 s
+Time: 2223 s
+Time: 2224 s
+Time: 2225 s
+Time: 2226 s
+Time: 2227 s
+Time: 2228 s
+Time: 2229 s
+Time: 2230 s
+Time: 2231 s
+Time: 2232 s
+Time: 2233 s
+Time: 2234 s
+Time: 2235 s
+Time: 2236 s
+Time: 2237 s
+Time: 2238 s
+Time: 2239 s
+Time: 2240 s
+Time: 2241 s
+Time: 2242 s
+Time: 2243 s
+Time: 2244 s
+Time: 2245 s
+Time: 2246 s
+Time: 2247 s
+Time: 2248 s
+Time: 2249 s
+Time: 2250 s
+Time: 2251 s
+Time: 2252 s
+Time: 2253 s
+Time: 2254 s
+Time: 2255 s
+Time: 2256 s
+Time: 2257 s
+Time: 2258 s
+Time: 2259 s
+Time: 2260 s
+Time: 2261 s
+Time: 2262 s
+Time: 2263 s
+Time: 2264 s
+Time: 2265 s
+Time: 2266 s
+Time: 2267 s
+Time: 2268 s
+Time: 2269 s
+Time: 2270 s
+Time: 2271 s
+Time: 2272 s
+Time: 2273 s
+Time: 2274 s
+Time: 2275 s
+Time: 2276 s
+Time: 2277 s
+Time: 2278 s
+Time: 2279 s
+Time: 2280 s
+Time: 2281 s
+Time: 2282 s
+Time: 2283 s
+Time: 2284 s
+Time: 2285 s
+Time: 2286 s
+Time: 2287 s
+Time: 2288 s
+Time: 2289 s
+Time: 2290 s
+Time: 2291 s
+Time: 2292 s
+Time: 2293 s
+Time: 2294 s
+Time: 2295 s
+Time: 2296 s
+Time: 2297 s
+Time: 2298 s
+Time: 2299 s
+Time: 2300 s
+Time: 2301 s
+Time: 2302 s
+Time: 2303 s
+Time: 2304 s
+Time: 2305 s
+Time: 2306 s
+Time: 2307 s
+Time: 2308 s
+Time: 2309 s
+Time: 2310 s
+Time: 2311 s
+Time: 2312 s
+Time: 2313 s
+Time: 2314 s
+Time: 2315 s
+Time: 2316 s
+Time: 2317 s
+Time: 2318 s
+Time: 2319 s
+Time: 2320 s
+Time: 2321 s
+Time: 2322 s
+Time: 2323 s
+Time: 2324 s
+Time: 2325 s
+Time: 2326 s
+Time: 2327 s
+Time: 2328 s
+Time: 2329 s
+Time: 2330 s
+Time: 2331 s
+Time: 2332 s
+Time: 2333 s
+Time: 2334 s
+Time: 2335 s
+Time: 2336 s
+Time: 2337 s
+Time: 2338 s
+Time: 2339 s
+Time: 2340 s
+Time: 2341 s
+Time: 2342 s
+Time: 2343 s
+Time: 2344 s
+Time: 2345 s
+Time: 2346 s
+Time: 2347 s
+Time: 2348 s
+Time: 2349 s
+Time: 2350 s
+Time: 2351 s
+Time: 2352 s
+Time: 2353 s
+Time: 2354 s
+Time: 2355 s
+Time: 2356 s
+Time: 2357 s
+Time: 2358 s
+Time: 2359 s
+Time: 2360 s
+Time: 2361 s
+Time: 2362 s
+Time: 2363 s
+Time: 2364 s
+Time: 2365 s
+Time: 2366 s
+Time: 2367 s
+Time: 2368 s
+Time: 2369 s
+Time: 2370 s
+Time: 2371 s
+Time: 2372 s
+Time: 2373 s
+Time: 2374 s
+Time: 2375 s
+Time: 2376 s
+Time: 2377 s
+Time: 2378 s
+Time: 2379 s
+Time: 2380 s
+Time: 2381 s
+Time: 2382 s
+Time: 2383 s
+Time: 2384 s
+Time: 2385 s
+Time: 2386 s
+Time: 2387 s
+Time: 2388 s
+Time: 2389 s
+Time: 2390 s
+Time: 2391 s
+Time: 2392 s
+Time: 2393 s
+Time: 2394 s
+Time: 2395 s
+Time: 2396 s
+Time: 2397 s
+Time: 2398 s
+Time: 2399 s
+Time: 2400 s
+Time: 2401 s
+Time: 2402 s
+Time: 2403 s
+Time: 2404 s
+Time: 2405 s
+Time: 2406 s
+Time: 2407 s
+Time: 2408 s
+Time: 2409 s
+Time: 2410 s
+Time: 2411 s
+Time: 2412 s
+Time: 2413 s
+Time: 2414 s
+Time: 2415 s
+Time: 2416 s
+Time: 2417 s
+Time: 2418 s
+Time: 2419 s
+Time: 2420 s
+Time: 2421 s
+Time: 2422 s
+Time: 2423 s
+Time: 2424 s
+Time: 2425 s
+Time: 2426 s
+Time: 2427 s
+Time: 2428 s
+Time: 2429 s
+Time: 2430 s
+Time: 2431 s
+Time: 2432 s
+Time: 2433 s
+Time: 2434 s
+Time: 2435 s
+Time: 2436 s
+Time: 2437 s
+Time: 2438 s
+Time: 2439 s
+Time: 2440 s
+Time: 2441 s
+Time: 2442 s
+Time: 2443 s
+Time: 2444 s
+Time: 2445 s
+Time: 2446 s
+Time: 2447 s
+Time: 2448 s
+Time: 2449 s
+Time: 2450 s
+Time: 2451 s
+Time: 2452 s
+Time: 2453 s
+Time: 2454 s
+Time: 2455 s
+Time: 2456 s
+Time: 2457 s
+Time: 2458 s
+Time: 2459 s
+Time: 2460 s
+Time: 2461 s
+Time: 2462 s
+Time: 2463 s
+Time: 2464 s
+Time: 2465 s
+Time: 2466 s
+Time: 2467 s
+Time: 2468 s
+Time: 2469 s
+Time: 2470 s
+Time: 2471 s
+Time: 2472 s
+Time: 2473 s
+Time: 2474 s
+Time: 2475 s
+Time: 2476 s
+Time: 2477 s
+Time: 2478 s
+Time: 2479 s
+Time: 2480 s
+Time: 2481 s
+Time: 2482 s
+Time: 2483 s
+Time: 2484 s
+Time: 2485 s
+Time: 2486 s
+Time: 2487 s
+Time: 2488 s
+Time: 2489 s
+Time: 2490 s
+Time: 2491 s
+Time: 2492 s
+Time: 2493 s
+Time: 2494 s
+Time: 2495 s
+Time: 2496 s
+Time: 2497 s
+Time: 2498 s
+Time: 2499 s
+Time: 2500 s
+Time: 2501 s
+Time: 2502 s
+Time: 2503 s
+Time: 2504 s
+Time: 2505 s
+Time: 2506 s
+Time: 2507 s
+Time: 2508 s
+Time: 2509 s
+Time: 2510 s
+Time: 2511 s
+Time: 2512 s
+Time: 2513 s
+Time: 2514 s
+Time: 2515 s
+Time: 2516 s
+Time: 2517 s
+Time: 2518 s
+Time: 2519 s
+Time: 2520 s
+Time: 2521 s
+Time: 2522 s
+Time: 2523 s
+Time: 2524 s
+Time: 2525 s
+Time: 2526 s
+Time: 2527 s
+Time: 2528 s
+Time: 2529 s
+Time: 2530 s
+Time: 2531 s
+Time: 2532 s
+Time: 2533 s
+Time: 2534 s
+Time: 2535 s
+Time: 2536 s
+Time: 2537 s
+Time: 2538 s
+Time: 2539 s
+Time: 2540 s
+Time: 2541 s
+Time: 2542 s
+Time: 2543 s
+Time: 2544 s
+Time: 2545 s
+Time: 2546 s
+Time: 2547 s
+Time: 2548 s
+Time: 2549 s
+Time: 2550 s
+Time: 2551 s
+Time: 2552 s
+Time: 2553 s
+Time: 2554 s
+Time: 2555 s
+Time: 2556 s
+Time: 2557 s
+Time: 2558 s
+Time: 2559 s
+Time: 2560 s
+Time: 2561 s
+Time: 2562 s
+Time: 2563 s
+Time: 2564 s
+Time: 2565 s
+Time: 2566 s
+Time: 2567 s
+Time: 2568 s
+Time: 2569 s
+Time: 2570 s
+Time: 2571 s
+Time: 2572 s
+Time: 2573 s
+Time: 2574 s
+Time: 2575 s
+Time: 2576 s
+Time: 2577 s
+Time: 2578 s
+Time: 2579 s
+Time: 2580 s
+Time: 2581 s
+Time: 2582 s
+Time: 2583 s
+Time: 2584 s
+Time: 2585 s
+Time: 2586 s
+Time: 2587 s
+Time: 2588 s
+Time: 2589 s
+Time: 2590 s
+Time: 2591 s
+Time: 2592 s
+Time: 2593 s
+Time: 2594 s
+Time: 2595 s
+Time: 2596 s
+Time: 2597 s
+Time: 2598 s
+Time: 2599 s
+Time: 2600 s
+Time: 2601 s
+Time: 2602 s
+Time: 2603 s
+Time: 2604 s
+Time: 2605 s
+Time: 2606 s
+Time: 2607 s
+Time: 2608 s
+Time: 2609 s
+Time: 2610 s
+Time: 2611 s
+Time: 2612 s
+Time: 2613 s
+Time: 2614 s
+Time: 2615 s
+Time: 2616 s
+Time: 2617 s
+Time: 2618 s
+Time: 2619 s
+Time: 2620 s
+Time: 2621 s
+Time: 2622 s
+Time: 2623 s
+Time: 2624 s
+Time: 2625 s
+Time: 2626 s
+Time: 2627 s
+Time: 2628 s
+Time: 2629 s
+Time: 2630 s
+Time: 2631 s
+Time: 2632 s
+Time: 2633 s
+Time: 2634 s
+Time: 2635 s
+Time: 2636 s
+Time: 2637 s
+Time: 2638 s
+Time: 2639 s
+Time: 2640 s
+Time: 2641 s
+Time: 2642 s
+Time: 2643 s
+Time: 2644 s
+Time: 2645 s
+Time: 2646 s
+Time: 2647 s
+Time: 2648 s
+Time: 2649 s
+Time: 2650 s
+Time: 2651 s
+Time: 2652 s
+Time: 2653 s
+Time: 2654 s
+Time: 2655 s
+Time: 2656 s
+Time: 2657 s
+Time: 2658 s
+Time: 2659 s
+Time: 2660 s
+Time: 2661 s
+Time: 2662 s
+Time: 2663 s
+Time: 2664 s
+Time: 2665 s
+Time: 2666 s
+Time: 2667 s
+Time: 2668 s
+Time: 2669 s
+Time: 2670 s
+Time: 2671 s
+Time: 2672 s
+Time: 2673 s
+Time: 2674 s
+Time: 2675 s
+Time: 2676 s
+Time: 2677 s
+Time: 2678 s
+Time: 2679 s
+Time: 2680 s
+Time: 2681 s
+Time: 2682 s
+Time: 2683 s
+Time: 2684 s
+Time: 2685 s
+Time: 2686 s
+Time: 2687 s
+Time: 2688 s
+Time: 2689 s
+Time: 2690 s
+Time: 2691 s
+Time: 2692 s
+Time: 2693 s
+Time: 2694 s
+Time: 2695 s
+Time: 2696 s
+Time: 2697 s
+Time: 2698 s
+Time: 2699 s
+Time: 2700 s
+Time: 2701 s
+Time: 2702 s
+Time: 2703 s
+Time: 2704 s
+Time: 2705 s
+Time: 2706 s
+Time: 2707 s
+Time: 2708 s
+Time: 2709 s
+Time: 2710 s
+Time: 2711 s
+Time: 2712 s
+Time: 2713 s
+Time: 2714 s
+Time: 2715 s
+Time: 2716 s
+Time: 2717 s
+Time: 2718 s
+Time: 2719 s
+Time: 2720 s
+Time: 2721 s
+Time: 2722 s
+Time: 2723 s
+Time: 2724 s
+Time: 2725 s
+Time: 2726 s
+Time: 2727 s
+Time: 2728 s
+Time: 2729 s
+Time: 2730 s
+Time: 2731 s
+Time: 2732 s
+Time: 2733 s
+Time: 2734 s
+Time: 2735 s
+Time: 2736 s
+Time: 2737 s
+Time: 2738 s
+Time: 2739 s
+Time: 2740 s
+Time: 2741 s
+Time: 2742 s
+Time: 2743 s
+Time: 2744 s
+Time: 2745 s
+Time: 2746 s
+Time: 2747 s
+Time: 2748 s
+Time: 2749 s
+Time: 2750 s
+Time: 2751 s
+Time: 2752 s
+Time: 2753 s
+Time: 2754 s
+Time: 2755 s
+Time: 2756 s
+Time: 2757 s
+Time: 2758 s
+Time: 2759 s
+Time: 2760 s
+Time: 2761 s
+Time: 2762 s
+Time: 2763 s
+Time: 2764 s
+Time: 2765 s
+Time: 2766 s
+Time: 2767 s
+Time: 2768 s
+Time: 2769 s
+Time: 2770 s
+Time: 2771 s
+Time: 2772 s
+Time: 2773 s
+Time: 2774 s
+Time: 2775 s
+Time: 2776 s
+Time: 2777 s
+Time: 2778 s
+Time: 2779 s
+Time: 2780 s
+Time: 2781 s
+Time: 2782 s
+Time: 2783 s
+Time: 2784 s
+Time: 2785 s
+Time: 2786 s
+Time: 2787 s
+Time: 2788 s
+Time: 2789 s
+Time: 2790 s
+Time: 2791 s
+Time: 2792 s
+Time: 2793 s
+Time: 2794 s
+Time: 2795 s
+Time: 2796 s
+Time: 2797 s
+Time: 2798 s
+Time: 2799 s
+Time: 2800 s
+Time: 2801 s
+Time: 2802 s
+Time: 2803 s
+Time: 2804 s
+Time: 2805 s
+Time: 2806 s
+Time: 2807 s
+Time: 2808 s
+Time: 2809 s
+Time: 2810 s
+Time: 2811 s
+Time: 2812 s
+Time: 2813 s
+Time: 2814 s
+Time: 2815 s
+Time: 2816 s
+Time: 2817 s
+Time: 2818 s
+Time: 2819 s
+Time: 2820 s
+Time: 2821 s
+Time: 2822 s
+Time: 2823 s
+Time: 2824 s
+Time: 2825 s
+Time: 2826 s
+Time: 2827 s
+Time: 2828 s
+Time: 2829 s
+Time: 2830 s
+Time: 2831 s
+Time: 2832 s
+Time: 2833 s
+Time: 2834 s
+Time: 2835 s
+Time: 2836 s
+Time: 2837 s
+Time: 2838 s
+Time: 2839 s
+Time: 2840 s
+Time: 2841 s
+Time: 2842 s
+Time: 2843 s
+Time: 2844 s
+Time: 2845 s
+Time: 2846 s
+Time: 2847 s
+Time: 2848 s
+Time: 2849 s
+Time: 2850 s
+Time: 2851 s
+Time: 2852 s
+Time: 2853 s
+Time: 2854 s
+Time: 2855 s
+Time: 2856 s
+Time: 2857 s
+Time: 2858 s
+Time: 2859 s
+Time: 2860 s
+Time: 2861 s
+Time: 2862 s
+Time: 2863 s
+Time: 2864 s
+Time: 2865 s
+Time: 2866 s
+Time: 2867 s
+Time: 2868 s
+Time: 2869 s
+Time: 2870 s
+Time: 2871 s
+Time: 2872 s
+Time: 2873 s
+Time: 2874 s
+Time: 2875 s
+Time: 2876 s
+Time: 2877 s
+Time: 2878 s
+Time: 2879 s
+Time: 2880 s
+Time: 2881 s
+Time: 2882 s
+Time: 2883 s
+Time: 2884 s
+Time: 2885 s
+Time: 2886 s
+Time: 2887 s
+Time: 2888 s
+Time: 2889 s
+Time: 2890 s
+Time: 2891 s
+Time: 2892 s
+Time: 2893 s
+Time: 2894 s
+Time: 2895 s
+Time: 2896 s
+Time: 2897 s
+Time: 2898 s
+Time: 2899 s
+Time: 2900 s
+Time: 2901 s
+Time: 2902 s
+Time: 2903 s
+Time: 2904 s
+Time: 2905 s
+Time: 2906 s
+Time: 2907 s
+Time: 2908 s
+Time: 2909 s
+Time: 2910 s
+Time: 2911 s
+Time: 2912 s
+Time: 2913 s
+Time: 2914 s
+Time: 2915 s
+Time: 2916 s
+Time: 2917 s
+Time: 2918 s
+Time: 2919 s
+Time: 2920 s
+Time: 2921 s
+Time: 2922 s
+Time: 2923 s
+Time: 2924 s
+Time: 2925 s
+Time: 2926 s
+Time: 2927 s
+Time: 2928 s
+Time: 2929 s
+Time: 2930 s
+Time: 2931 s
+Time: 2932 s
+Time: 2933 s
+Time: 2934 s
+Time: 2935 s
+Time: 2936 s
+Time: 2937 s
+Time: 2938 s
+Time: 2939 s
+Time: 2940 s
+Time: 2941 s
+Time: 2942 s
+Time: 2943 s
+Time: 2944 s
+Time: 2945 s
+Time: 2946 s
+Time: 2947 s
+Time: 2948 s
+Time: 2949 s
+Time: 2950 s
+Time: 2951 s
+Time: 2952 s
+Time: 2953 s
+Time: 2954 s
+Time: 2955 s
+Time: 2956 s
+Time: 2957 s
+Time: 2958 s
+Time: 2959 s
+Time: 2960 s
+Time: 2961 s
+Time: 2962 s
+Time: 2963 s
+Time: 2964 s
+Time: 2965 s
+Time: 2966 s
+Time: 2967 s
+Time: 2968 s
+Time: 2969 s
+Time: 2970 s
+Time: 2971 s
+Time: 2972 s
+Time: 2973 s
+Time: 2974 s
+Time: 2975 s
+Time: 2976 s
+Time: 2977 s
+Time: 2978 s
+Time: 2979 s
+Time: 2980 s
+Time: 2981 s
+Time: 2982 s
+Time: 2983 s
+Time: 2984 s
+Time: 2985 s
+Time: 2986 s
+Time: 2987 s
+Time: 2988 s
+Time: 2989 s
+Time: 2990 s
+Time: 2991 s
+Time: 2992 s
+Time: 2993 s
+Time: 2994 s
+Time: 2995 s
+Time: 2996 s
+Time: 2997 s
+Time: 2998 s
+Time: 2999 s
+Time: 3000 s
+Time: 3001 s
+Time: 3002 s
+Time: 3003 s
+Time: 3004 s
+Time: 3005 s
+Time: 3006 s
+Time: 3007 s
+Time: 3008 s
+Time: 3009 s
+Time: 3010 s
+Time: 3011 s
+Time: 3012 s
+Time: 3013 s
+Time: 3014 s
+Time: 3015 s
+Time: 3016 s
+Time: 3017 s
+Time: 3018 s
+Time: 3019 s
+Time: 3020 s
+Time: 3021 s
+Time: 3022 s
+Time: 3023 s
+Time: 3024 s
+Time: 3025 s
+Time: 3026 s
+Time: 3027 s
+Time: 3028 s
+Time: 3029 s
+Time: 3030 s
+Time: 3031 s
+Time: 3032 s
+Time: 3033 s
+Time: 3034 s
+Time: 3035 s
+Time: 3036 s
+Time: 3037 s
+Time: 3038 s
+Time: 3039 s
+Time: 3040 s
+Time: 3041 s
+Time: 3042 s
+Time: 3043 s
+Time: 3044 s
+Time: 3045 s
+Time: 3046 s
+Time: 3047 s
+Time: 3048 s
+Time: 3049 s
+Time: 3050 s
+Time: 3051 s
+Time: 3052 s
+Time: 3053 s
+Time: 3054 s
+Time: 3055 s
+Time: 3056 s
+Time: 3057 s
+Time: 3058 s
+Time: 3059 s
+Time: 3060 s
+Time: 3061 s
+Time: 3062 s
+Time: 3063 s
+Time: 3064 s
+Time: 3065 s
+Time: 3066 s
+Time: 3067 s
+Time: 3068 s
+Time: 3069 s
+Time: 3070 s
+Time: 3071 s
+Time: 3072 s
+Time: 3073 s
+Time: 3074 s
+Time: 3075 s
+Time: 3076 s
+Time: 3077 s
+Time: 3078 s
+Time: 3079 s
+Time: 3080 s
+Time: 3081 s
+Time: 3082 s
+Time: 3083 s
+Time: 3084 s
+Time: 3085 s
+Time: 3086 s
+Time: 3087 s
+Time: 3088 s
+Time: 3089 s
+Time: 3090 s
+Time: 3091 s
+Time: 3092 s
+Time: 3093 s
+Time: 3094 s
+Time: 3095 s
+Time: 3096 s
+Time: 3097 s
+Time: 3098 s
+Time: 3099 s
+Time: 3100 s
+Time: 3101 s
+Time: 3102 s
+Time: 3103 s
+Time: 3104 s
+Time: 3105 s
+Time: 3106 s
+Time: 3107 s
+Time: 3108 s
+Time: 3109 s
+Time: 3110 s
+Time: 3111 s
+Time: 3112 s
+Time: 3113 s
+Time: 3114 s
+Time: 3115 s
+Time: 3116 s
+Time: 3117 s
+Time: 3118 s
+Time: 3119 s
+Time: 3120 s
+Time: 3121 s
+Time: 3122 s
+Time: 3123 s
+Time: 3124 s
+Time: 3125 s
+Time: 3126 s
+Time: 3127 s
+Time: 3128 s
+Time: 3129 s
+Time: 3130 s
+Time: 3131 s
+Time: 3132 s
+Time: 3133 s
+Time: 3134 s
+Time: 3135 s
+Time: 3136 s
+Time: 3137 s
+Time: 3138 s
+Time: 3139 s
+Time: 3140 s
+Time: 3141 s
+Time: 3142 s
+Time: 3143 s
+Time: 3144 s
+Time: 3145 s
+Time: 3146 s
+Time: 3147 s
+Time: 3148 s
+Time: 3149 s
+Time: 3150 s
+Time: 3151 s
+Time: 3152 s
+Time: 3153 s
+Time: 3154 s
+Time: 3155 s
+Time: 3156 s
+Time: 3157 s
+Time: 3158 s
+Time: 3159 s
+Time: 3160 s
+Time: 3161 s
+Time: 3162 s
+Time: 3163 s
+Time: 3164 s
+Time: 3165 s
+Time: 3166 s
+Time: 3167 s
+Time: 3168 s
+Time: 3169 s
+Time: 3170 s
+Time: 3171 s
+Time: 3172 s
+Time: 3173 s
+Time: 3174 s
+Time: 3175 s
+Time: 3176 s
+Time: 3177 s
+Time: 3178 s
+Time: 3179 s
+Time: 3180 s
+Time: 3181 s
+Time: 3182 s
+Time: 3183 s
+Time: 3184 s
+Time: 3185 s
+Time: 3186 s
+Time: 3187 s
+Time: 3188 s
+Time: 3189 s
+Time: 3190 s
+Time: 3191 s
+Time: 3192 s
+Time: 3193 s
+Time: 3194 s
+Time: 3195 s
+Time: 3196 s
+Time: 3197 s
+Time: 3198 s
+Time: 3199 s
+Time: 3200 s
+Time: 3201 s
+Time: 3202 s
+Time: 3203 s
+Time: 3204 s
+Time: 3205 s
+Time: 3206 s
+Time: 3207 s
+Time: 3208 s
+Time: 3209 s
+Time: 3210 s
+Time: 3211 s
+Time: 3212 s
+Time: 3213 s
+Time: 3214 s
+Time: 3215 s
+Time: 3216 s
+Time: 3217 s
+Time: 3218 s
+Time: 3219 s
+Time: 3220 s
+Time: 3221 s
+Time: 3222 s
+Time: 3223 s
+Time: 3224 s
+Time: 3225 s
+Time: 3226 s
+Time: 3227 s
+Time: 3228 s
+Time: 3229 s
+Time: 3230 s
+Time: 3231 s
+Time: 3232 s
+Time: 3233 s
+Time: 3234 s
+Time: 3235 s
+Time: 3236 s
+Time: 3237 s
+Time: 3238 s
+Time: 3239 s
+Time: 3240 s
+Time: 3241 s
+Time: 3242 s
+Time: 3243 s
+Time: 3244 s
+Time: 3245 s
+Time: 3246 s
+Time: 3247 s
+Time: 3248 s
+Time: 3249 s
+Time: 3250 s
+Time: 3251 s
+Time: 3252 s
+Time: 3253 s
+Time: 3254 s
+Time: 3255 s
+Time: 3256 s
+Time: 3257 s
+Time: 3258 s
+Time: 3259 s
+Time: 3260 s
+Time: 3261 s
+Time: 3262 s
+Time: 3263 s
+Time: 3264 s
+Time: 3265 s
+Time: 3266 s
+Time: 3267 s
+Time: 3268 s
+Time: 3269 s
+Time: 3270 s
+Time: 3271 s
+Time: 3272 s
+Time: 3273 s
+Time: 3274 s
+Time: 3275 s
+Time: 3276 s
+Time: 3277 s
+Time: 3278 s
+Time: 3279 s
+Time: 3280 s
+Time: 3281 s
+Time: 3282 s
+Time: 3283 s
+Time: 3284 s
+Time: 3285 s
+Time: 3286 s
+Time: 3287 s
+Time: 3288 s
+Time: 3289 s
+Time: 3290 s
+Time: 3291 s
+Time: 3292 s
+Time: 3293 s
+Time: 3294 s
+Time: 3295 s
+Time: 3296 s
+Time: 3297 s
+Time: 3298 s
+Time: 3299 s
+Time: 3300 s
+Time: 3301 s
+Time: 3302 s
+Time: 3303 s
+Time: 3304 s
+Time: 3305 s
+Time: 3306 s
+Time: 3307 s
+Time: 3308 s
+Time: 3309 s
+Time: 3310 s
+Time: 3311 s
+Time: 3312 s
+Time: 3313 s
+Time: 3314 s
+Time: 3315 s
+Time: 3316 s
+Time: 3317 s
+Time: 3318 s
+Time: 3319 s
+Time: 3320 s
+Time: 3321 s
+Time: 3322 s
+Time: 3323 s
+Time: 3324 s
+Time: 3325 s
+Time: 3326 s
+Time: 3327 s
+Time: 3328 s
+Time: 3329 s
+Time: 3330 s
+Time: 3331 s
+Time: 3332 s
+Time: 3333 s
+Time: 3334 s
+Time: 3335 s
+Time: 3336 s
+Time: 3337 s
+Time: 3338 s
+Time: 3339 s
+Time: 3340 s
+Time: 3341 s
+Time: 3342 s
+Time: 3343 s
+Time: 3344 s
+Time: 3345 s
+Time: 3346 s
+Time: 3347 s
+Time: 3348 s
+Time: 3349 s
+Time: 3350 s
+Time: 3351 s
+Time: 3352 s
+Time: 3353 s
+Time: 3354 s
+Time: 3355 s
+Time: 3356 s
+Time: 3357 s
+Time: 3358 s
+Time: 3359 s
+Time: 3360 s
+Time: 3361 s
+Time: 3362 s
+Time: 3363 s
+Time: 3364 s
+Time: 3365 s
+Time: 3366 s
+Time: 3367 s
+Time: 3368 s
+Time: 3369 s
+Time: 3370 s
+Time: 3371 s
+Time: 3372 s
+Time: 3373 s
+Time: 3374 s
+Time: 3375 s
+Time: 3376 s
+Time: 3377 s
+Time: 3378 s
+Time: 3379 s
+Time: 3380 s
+Time: 3381 s
+Time: 3382 s
+Time: 3383 s
+Time: 3384 s
+Time: 3385 s
+Time: 3386 s
+Time: 3387 s
+Time: 3388 s
+Time: 3389 s
+Time: 3390 s
+Time: 3391 s
+Time: 3392 s
+Time: 3393 s
+Time: 3394 s
+Time: 3395 s
+Time: 3396 s
+Time: 3397 s
+Time: 3398 s
+Time: 3399 s
+Time: 3400 s
+Time: 3401 s
+Time: 3402 s
+Time: 3403 s
+Time: 3404 s
+Time: 3405 s
+Time: 3406 s
+Time: 3407 s
+Time: 3408 s
+Time: 3409 s
+Time: 3410 s
+Time: 3411 s
+Time: 3412 s
+Time: 3413 s
+Time: 3414 s
+Time: 3415 s
+Time: 3416 s
+Time: 3417 s
+Time: 3418 s
+Time: 3419 s
+Time: 3420 s
+Time: 3421 s
+Time: 3422 s
+Time: 3423 s
+Time: 3424 s
+Time: 3425 s
+Time: 3426 s
+Time: 3427 s
+Time: 3428 s
+Time: 3429 s
+Time: 3430 s
+Time: 3431 s
+Time: 3432 s
+Time: 3433 s
+Time: 3434 s
+Time: 3435 s
+Time: 3436 s
+Time: 3437 s
+Time: 3438 s
+Time: 3439 s
+Time: 3440 s
+Time: 3441 s
+Time: 3442 s
+Time: 3443 s
+Time: 3444 s
+Time: 3445 s
+Time: 3446 s
+Time: 3447 s
+Time: 3448 s
+Time: 3449 s
+Time: 3450 s
+Time: 3451 s
+Time: 3452 s
+Time: 3453 s
+Time: 3454 s
+Time: 3455 s
+Time: 3456 s
+Time: 3457 s
+Time: 3458 s
+Time: 3459 s
+Time: 3460 s
+Time: 3461 s
+Time: 3462 s
+Time: 3463 s
+Time: 3464 s
+Time: 3465 s
+Time: 3466 s
+Time: 3467 s
+Time: 3468 s
+Time: 3469 s
+Time: 3470 s
+Time: 3471 s
+Time: 3472 s
+Time: 3473 s
+Time: 3474 s
+Time: 3475 s
+Time: 3476 s
+Time: 3477 s
+Time: 3478 s
+Time: 3479 s
+Time: 3480 s
+Time: 3481 s
+Time: 3482 s
+Time: 3483 s
+Time: 3484 s
+Time: 3485 s
+Time: 3486 s
+Time: 3487 s
+Time: 3488 s
+Time: 3489 s
+Time: 3490 s
+Time: 3491 s
+Time: 3492 s
+Time: 3493 s
+Time: 3494 s
+Time: 3495 s
+Time: 3496 s
+Time: 3497 s
+Time: 3498 s
+Time: 3499 s
+Time: 3500 s
+Time: 3501 s
+Time: 3502 s
+Time: 3503 s
+Time: 3504 s
+Time: 3505 s
+Time: 3506 s
+Time: 3507 s
+Time: 3508 s
+Time: 3509 s
+Time: 3510 s
+Time: 3511 s
+Time: 3512 s
+Time: 3513 s
+Time: 3514 s
+Time: 3515 s
+Time: 3516 s
+Time: 3517 s
+Time: 3518 s
+Time: 3519 s
+Time: 3520 s
+Time: 3521 s
+Time: 3522 s
+Time: 3523 s
+Time: 3524 s
+Time: 3525 s
+Time: 3526 s
+Time: 3527 s
+Time: 3528 s
+Time: 3529 s
+Time: 3530 s
+Time: 3531 s
+Time: 3532 s
+Time: 3533 s
+Time: 3534 s
+Time: 3535 s
+Time: 3536 s
+Time: 3537 s
+Time: 3538 s
+Time: 3539 s
+Time: 3540 s
+Time: 3541 s
+Time: 3542 s
+Time: 3543 s
+Time: 3544 s
+Time: 3545 s
+Time: 3546 s
+Time: 3547 s
+Time: 3548 s
+Time: 3549 s
+Time: 3550 s
+Time: 3551 s
+Time: 3552 s
+Time: 3553 s
+Time: 3554 s
+Time: 3555 s
+Time: 3556 s
+Time: 3557 s
+Time: 3558 s
+Time: 3559 s
+Time: 3560 s
+Time: 3561 s
+Time: 3562 s
+Time: 3563 s
+Time: 3564 s
+Time: 3565 s
+Time: 3566 s
+Time: 3567 s
+Time: 3568 s
+Time: 3569 s
+Time: 3570 s
+Time: 3571 s
+Time: 3572 s
+Time: 3573 s
+Time: 3574 s
+Time: 3575 s
+Time: 3576 s
+Time: 3577 s
+Time: 3578 s
+Time: 3579 s
+Time: 3580 s
+Time: 3581 s
+Time: 3582 s
+Time: 3583 s
+Time: 3584 s
+Time: 3585 s
+Time: 3586 s
+Time: 3587 s
+Time: 3588 s
+Time: 3589 s
+Time: 3590 s
+Time: 3591 s
+Time: 3592 s
+Time: 3593 s
+Time: 3594 s
+Time: 3595 s
+Time: 3596 s
+Time: 3597 s
+Time: 3598 s
+Time: 3599 s
+Time: 3600 s
+Time: 3601 s
+Time: 3602 s
+Time: 3603 s
+Time: 3604 s
+Time: 3605 s
+Time: 3606 s
+Time: 3607 s
+Time: 3608 s
+Time: 3609 s
+Time: 3610 s
+Time: 3611 s
+Time: 3612 s
+Time: 3613 s
+Time: 3614 s
+Time: 3615 s
+Time: 3616 s
+Time: 3617 s
+Time: 3618 s
+Time: 3619 s
+Time: 3620 s
+Time: 3621 s
+Time: 3622 s
+Time: 3623 s
+Time: 3624 s
+Time: 3625 s
+Time: 3626 s
+Time: 3627 s
+Time: 3628 s
+Time: 3629 s
+Time: 3630 s
+Time: 3631 s
+Time: 3632 s
+Time: 3633 s
+Time: 3634 s
+Time: 3635 s
+Time: 3636 s
+Time: 3637 s
+Time: 3638 s
+Time: 3639 s
+Time: 3640 s
+Time: 3641 s
+Time: 3642 s
+Time: 3643 s
+Time: 3644 s
+Time: 3645 s
+Time: 3646 s
+Time: 3647 s
+Time: 3648 s
+Time: 3649 s
+Time: 3650 s
+Time: 3651 s
+Time: 3652 s
+Time: 3653 s
+Time: 3654 s
+Time: 3655 s
+Time: 3656 s
+Time: 3657 s
+Time: 3658 s
+Time: 3659 s
+Time: 3660 s
+Time: 3661 s
+Time: 3662 s
+Time: 3663 s
+Time: 3664 s
+Time: 3665 s
+Time: 3666 s
+Time: 3667 s
+Time: 3668 s
+Time: 3669 s
+Time: 3670 s
+Time: 3671 s
+Time: 3672 s
+Time: 3673 s
+Time: 3674 s
+Time: 3675 s
+Time: 3676 s
+Time: 3677 s
+Time: 3678 s
+Time: 3679 s
+Time: 3680 s
+Time: 3681 s
+Time: 3682 s
+Time: 3683 s
+Time: 3684 s
+Time: 3685 s
+Time: 3686 s
+Time: 3687 s
+Time: 3688 s
+Time: 3689 s
+Time: 3690 s
+Time: 3691 s
+Time: 3692 s
+Time: 3693 s
+Time: 3694 s
+Time: 3695 s
+Time: 3696 s
+Time: 3697 s
+Time: 3698 s
+Time: 3699 s
+Time: 3700 s
+Time: 3701 s
+Time: 3702 s
+Time: 3703 s
+Time: 3704 s
+Time: 3705 s
+Time: 3706 s
+Time: 3707 s
+Time: 3708 s
+Time: 3709 s
+Time: 3710 s
+Time: 3711 s
+Time: 3712 s
+Time: 3713 s
+Time: 3714 s
+Time: 3715 s
+Time: 3716 s
+Time: 3717 s
+Time: 3718 s
+Time: 3719 s
+Time: 3720 s
+Time: 3721 s
+Time: 3722 s
+Time: 3723 s
+Time: 3724 s
+Time: 3725 s
+Time: 3726 s
+Time: 3727 s
+Time: 3728 s
+Time: 3729 s
+Time: 3730 s
+Time: 3731 s
+Time: 3732 s
+Time: 3733 s
+Time: 3734 s
+Time: 3735 s
+Time: 3736 s
+Time: 3737 s
+Time: 3738 s
+Time: 3739 s
+Time: 3740 s
+Time: 3741 s
+Time: 3742 s
+Time: 3743 s
+Time: 3744 s
+Time: 3745 s
+Time: 3746 s
+Time: 3747 s
+Time: 3748 s
+Time: 3749 s
+Time: 3750 s
+Time: 3751 s
+Time: 3752 s
+Time: 3753 s
+Time: 3754 s
+Time: 3755 s
+Time: 3756 s
+Time: 3757 s
+Time: 3758 s
+Time: 3759 s
+Time: 3760 s
+Time: 3761 s
+Time: 3762 s
+Time: 3763 s
+Time: 3764 s
+Time: 3765 s
+Time: 3766 s
+Time: 3767 s
+Time: 3768 s
+Time: 3769 s
+Time: 3770 s
+Time: 3771 s
+Time: 3772 s
+Time: 3773 s
+Time: 3774 s
+Time: 3775 s
+Time: 3776 s
+Time: 3777 s
+Time: 3778 s
+Time: 3779 s
+Time: 3780 s
+Time: 3781 s
+Time: 3782 s
+Time: 3783 s
+Time: 3784 s
+Time: 3785 s
+Time: 3786 s
+Time: 3787 s
+Time: 3788 s
+Time: 3789 s
+Time: 3790 s
+Time: 3791 s
+Time: 3792 s
+Time: 3793 s
+Time: 3794 s
+Time: 3795 s
+Time: 3796 s
+Time: 3797 s
+Time: 3798 s
+Time: 3799 s
+Time: 3800 s
+Time: 3801 s
+Time: 3802 s
+Time: 3803 s
+Time: 3804 s
+Time: 3805 s
+Time: 3806 s
+Time: 3807 s
+Time: 3808 s
+Time: 3809 s
+Time: 3810 s
+Time: 3811 s
+Time: 3812 s
+Time: 3813 s
+Time: 3814 s
+Time: 3815 s
+Time: 3816 s
+Time: 3817 s
+Time: 3818 s
+Time: 3819 s
+Time: 3820 s
+Time: 3821 s
+Time: 3822 s
+Time: 3823 s
+Time: 3824 s
+Time: 3825 s
+Time: 3826 s
+Time: 3827 s
+Time: 3828 s
+Time: 3829 s
+Time: 3830 s
+Time: 3831 s
+Time: 3832 s
+Time: 3833 s
+Time: 3834 s
+Time: 3835 s
+Time: 3836 s
+Time: 3837 s
+Time: 3838 s
+Time: 3839 s
+Time: 3840 s
+Time: 3841 s
+Time: 3842 s
+Time: 3843 s
+Time: 3844 s
+Time: 3845 s
+Time: 3846 s
+Time: 3847 s
+Time: 3848 s
+Time: 3849 s
+Time: 3850 s
+Time: 3851 s
+Time: 3852 s
+Time: 3853 s
+Time: 3854 s
+Time: 3855 s
+Time: 3856 s
+Time: 3857 s
+Time: 3858 s
+Time: 3859 s
+Time: 3860 s
+Time: 3861 s
+Time: 3862 s
+Time: 3863 s
+Time: 3864 s
+Time: 3865 s
+Time: 3866 s
+Time: 3867 s
+Time: 3868 s
+Time: 3869 s
+Time: 3870 s
+Time: 3871 s
+Time: 3872 s
+Time: 3873 s
+Time: 3874 s
+Time: 3875 s
+Time: 3876 s
+Time: 3877 s
+Time: 3878 s
+Time: 3879 s
+Time: 3880 s
+Time: 3881 s
+Time: 3882 s
+Time: 3883 s
+Time: 3884 s
+Time: 3885 s
+Time: 3886 s
+Time: 3887 s
+Time: 3888 s
+Time: 3889 s
+Time: 3890 s
+Time: 3891 s
+Time: 3892 s
+Time: 3893 s
+Time: 3894 s
+Time: 3895 s
+Time: 3896 s
+Time: 3897 s
+Time: 3898 s
+Time: 3899 s
+Time: 3900 s
+Time: 3901 s
+Time: 3902 s
+Time: 3903 s
+Time: 3904 s
+Time: 3905 s
+Time: 3906 s
+Time: 3907 s
+Time: 3908 s
+Time: 3909 s
+Time: 3910 s
+Time: 3911 s
+Time: 3912 s
+Time: 3913 s
+Time: 3914 s
+Time: 3915 s
+Time: 3916 s
+Time: 3917 s
+Time: 3918 s
+Time: 3919 s
+Time: 3920 s
+Time: 3921 s
+Time: 3922 s
+Time: 3923 s
+Time: 3924 s
+Time: 3925 s
+Time: 3926 s
+Time: 3927 s
+Time: 3928 s
+Time: 3929 s
+Time: 3930 s
+Time: 3931 s
+Time: 3932 s
+Time: 3933 s
+Time: 3934 s
+Time: 3935 s
+Time: 3936 s
+Time: 3937 s
+Time: 3938 s
+Time: 3939 s
+Time: 3940 s
+Time: 3941 s
+Time: 3942 s
+Time: 3943 s
+Time: 3944 s
+Time: 3945 s
+Time: 3946 s
+Time: 3947 s
+Time: 3948 s
+Time: 3949 s
+Time: 3950 s
+Time: 3951 s
+Time: 3952 s
+Time: 3953 s
+Time: 3954 s
+Time: 3955 s
+Time: 3956 s
+Time: 3957 s
+Time: 3958 s
+Time: 3959 s
+Time: 3960 s
+Time: 3961 s
+Time: 3962 s
+Time: 3963 s
+Time: 3964 s
+Time: 3965 s
+Time: 3966 s
+Time: 3967 s
+Time: 3968 s
+Time: 3969 s
+Time: 3970 s
+Time: 3971 s
+Time: 3972 s
+Time: 3973 s
+Time: 3974 s
+Time: 3975 s
+Time: 3976 s
+Time: 3977 s
+Time: 3978 s
+Time: 3979 s
+Time: 3980 s
+Time: 3981 s
+Time: 3982 s
+Time: 3983 s
+Time: 3984 s
+Time: 3985 s
+Time: 3986 s
+Time: 3987 s
+Time: 3988 s
+Time: 3989 s
+Time: 3990 s
+Time: 3991 s
+Time: 3992 s
+Time: 3993 s
+Time: 3994 s
+Time: 3995 s
+Time: 3996 s
+Time: 3997 s
+Time: 3998 s
+Time: 3999 s
+Time: 4000 s
+Time: 4001 s
+Time: 4002 s
+Time: 4003 s
+Time: 4004 s
+Time: 4005 s
+Time: 4006 s
+Time: 4007 s
+Time: 4008 s
+Time: 4009 s
+Time: 4010 s
+Time: 4011 s
+Time: 4012 s
+Time: 4013 s
+Time: 4014 s
+Time: 4015 s
+Time: 4016 s
+Time: 4017 s
+Time: 4018 s
+Time: 4019 s
+Time: 4020 s
+Time: 4021 s
+Time: 4022 s
+Time: 4023 s
+Time: 4024 s
+Time: 4025 s
+Time: 4026 s
+Time: 4027 s
+Time: 4028 s
+Time: 4029 s
+Time: 4030 s
+Time: 4031 s
+Time: 4032 s
+Time: 4033 s
+Time: 4034 s
+Time: 4035 s
+Time: 4036 s
+Time: 4037 s
+Time: 4038 s
+Time: 4039 s
+Time: 4040 s
+Time: 4041 s
+Time: 4042 s
+Time: 4043 s
+Time: 4044 s
+Time: 4045 s
+Time: 4046 s
+Time: 4047 s
+Time: 4048 s
+Time: 4049 s
+Time: 4050 s
+Time: 4051 s
+Time: 4052 s
+Time: 4053 s
+Time: 4054 s
+Time: 4055 s
+Time: 4056 s
+Time: 4057 s
+Time: 4058 s
+Time: 4059 s
+Time: 4060 s
+Time: 4061 s
+Time: 4062 s
+Time: 4063 s
+Time: 4064 s
+Time: 4065 s
+Time: 4066 s
+Time: 4067 s
+Time: 4068 s
+Time: 4069 s
+Time: 4070 s
+Time: 4071 s
+Time: 4072 s
+Time: 4073 s
+Time: 4074 s
+Time: 4075 s
+Time: 4076 s
+Time: 4077 s
+Time: 4078 s
+Time: 4079 s
+Time: 4080 s
+Time: 4081 s
+Time: 4082 s
+Time: 4083 s
+Time: 4084 s
+Time: 4085 s
+Time: 4086 s
+Time: 4087 s
+Time: 4088 s
+Time: 4089 s
+Time: 4090 s
+Time: 4091 s
+Time: 4092 s
+Time: 4093 s
+Time: 4094 s
+Time: 4095 s
+Time: 4096 s
+Time: 4097 s
+Time: 4098 s
+Time: 4099 s
+Time: 4100 s
+Time: 4101 s
+Time: 4102 s
+Time: 4103 s
+Time: 4104 s
+Time: 4105 s
+Time: 4106 s
+Time: 4107 s
+Time: 4108 s
+Time: 4109 s
+Time: 4110 s
+Time: 4111 s
+Time: 4112 s
+Time: 4113 s
+Time: 4114 s
+Time: 4115 s
+Time: 4116 s
+Time: 4117 s
+Time: 4118 s
+Time: 4119 s
+Time: 4120 s
+Time: 4121 s
+Time: 4122 s
+Time: 4123 s
+Time: 4124 s
+Time: 4125 s
+Time: 4126 s
+Time: 4127 s
+Time: 4128 s
+Time: 4129 s
+Time: 4130 s
+Time: 4131 s
+Time: 4132 s
+Time: 4133 s
+Time: 4134 s
+Time: 4135 s
+Time: 4136 s
+Time: 4137 s
+Time: 4138 s
+Time: 4139 s
+Time: 4140 s
+Time: 4141 s
+Time: 4142 s
+Time: 4143 s
+Time: 4144 s
+Time: 4145 s
+Time: 4146 s
+Time: 4147 s
+Time: 4148 s
+Time: 4149 s
+Time: 4150 s
+Time: 4151 s
+Time: 4152 s
+Time: 4153 s
+Time: 4154 s
+Time: 4155 s
+Time: 4156 s
+Time: 4157 s
+Time: 4158 s
+Time: 4159 s
+Time: 4160 s
+Time: 4161 s
+Time: 4162 s
+Time: 4163 s
+Time: 4164 s
+Time: 4165 s
+Time: 4166 s
+Time: 4167 s
+Time: 4168 s
+Time: 4169 s
+Time: 4170 s
+Time: 4171 s
+Time: 4172 s
+Time: 4173 s
+Time: 4174 s
+Time: 4175 s
+Time: 4176 s
+Time: 4177 s
+Time: 4178 s
+Time: 4179 s
+Time: 4180 s
+Time: 4181 s
+Time: 4182 s
+Time: 4183 s
+Time: 4184 s
+Time: 4185 s
+Time: 4186 s
+Time: 4187 s
+Time: 4188 s
+Time: 4189 s
+Time: 4190 s
+Time: 4191 s
+Time: 4192 s
+Time: 4193 s
+Time: 4194 s
+Time: 4195 s
+Time: 4196 s
+Time: 4197 s
+Time: 4198 s
+Time: 4199 s
+Time: 4200 s
+Time: 4201 s
+Time: 4202 s
+Time: 4203 s
+Time: 4204 s
+Time: 4205 s
+Time: 4206 s
+Time: 4207 s
+Time: 4208 s
+Time: 4209 s
+Time: 4210 s
+Time: 4211 s
+Time: 4212 s
+Time: 4213 s
+Time: 4214 s
+Time: 4215 s
+Time: 4216 s
+Time: 4217 s
+Time: 4218 s
+Time: 4219 s
+Time: 4220 s
+Time: 4221 s
+Time: 4222 s
+Time: 4223 s
+Time: 4224 s
+Time: 4225 s
+Time: 4226 s
+Time: 4227 s
+Time: 4228 s
+Time: 4229 s
+Time: 4230 s
+Time: 4231 s
+Time: 4232 s
+Time: 4233 s
+Time: 4234 s
+Time: 4235 s
+Time: 4236 s
+Time: 4237 s
+Time: 4238 s
+Time: 4239 s
+Time: 4240 s
+Time: 4241 s
+Time: 4242 s
+Time: 4243 s
+Time: 4244 s
+Time: 4245 s
+Time: 4246 s
+Time: 4247 s
+Time: 4248 s
+Time: 4249 s
+Time: 4250 s
+Time: 4251 s
+Time: 4252 s
+Time: 4253 s
+Time: 4254 s
+Time: 4255 s
+Time: 4256 s
+Time: 4257 s
+Time: 4258 s
+Time: 4259 s
+Time: 4260 s
+Time: 4261 s
+Time: 4262 s
+Time: 4263 s
+Time: 4264 s
+Time: 4265 s
+Time: 4266 s
+Time: 4267 s
+Time: 4268 s
+Time: 4269 s
+Time: 4270 s
+Time: 4271 s
+Time: 4272 s
+Time: 4273 s
+Time: 4274 s
+Time: 4275 s
+Time: 4276 s
+Time: 4277 s
+Time: 4278 s
+Time: 4279 s
+Time: 4280 s
+Time: 4281 s
+Time: 4282 s
+Time: 4283 s
+Time: 4284 s
+Time: 4285 s
+Time: 4286 s
+Time: 4287 s
+Time: 4288 s
+Time: 4289 s
+Time: 4290 s
+Time: 4291 s
+Time: 4292 s
+Time: 4293 s
+Time: 4294 s
+Time: 4295 s
+Time: 4296 s
+Time: 4297 s
+Time: 4298 s
+Time: 4299 s
+Time: 4300 s
+Time: 4301 s
+Time: 4302 s
+Time: 4303 s
+Time: 4304 s
+Time: 4305 s
+Time: 4306 s
+Time: 4307 s
+Time: 4308 s
+Time: 4309 s
+Time: 4310 s
+Time: 4311 s
+Time: 4312 s
+Time: 4313 s
+Time: 4314 s
+Time: 4315 s
+Time: 4316 s
+Time: 4317 s
+Time: 4318 s
+Time: 4319 s
+Time: 4320 s
+Time: 4321 s
+Time: 4322 s
+Time: 4323 s
+Time: 4324 s
+Time: 4325 s
+Time: 4326 s
+Time: 4327 s
+Time: 4328 s
+Time: 4329 s
+Time: 4330 s
+Time: 4331 s
+Time: 4332 s
+Time: 4333 s
+Time: 4334 s
+Time: 4335 s
+Time: 4336 s
+Time: 4337 s
+Time: 4338 s
+Time: 4339 s
+Time: 4340 s
+Time: 4341 s
+Time: 4342 s
+Time: 4343 s
+Time: 4344 s
+Time: 4345 s
+Time: 4346 s
+Time: 4347 s
+Time: 4348 s
+Time: 4349 s
+Time: 4350 s
+Time: 4351 s
+Time: 4352 s
+Time: 4353 s
+Time: 4354 s
+Time: 4355 s
+Time: 4356 s
+Time: 4357 s
+Time: 4358 s
+Time: 4359 s
+Time: 4360 s
+Time: 4361 s
+Time: 4362 s
+Time: 4363 s
+Time: 4364 s
+Time: 4365 s
+Time: 4366 s
+Time: 4367 s
+Time: 4368 s
+Time: 4369 s
+Time: 4370 s
+Time: 4371 s
+Time: 4372 s
+Time: 4373 s
+Time: 4374 s
+Time: 4375 s
+Time: 4376 s
+Time: 4377 s
+Time: 4378 s
+Time: 4379 s
+Time: 4380 s
+Time: 4381 s
+Time: 4382 s
+Time: 4383 s
+Time: 4384 s
+Time: 4385 s
+Time: 4386 s
+Time: 4387 s
+Time: 4388 s
+Time: 4389 s
+Time: 4390 s
+Time: 4391 s
+Time: 4392 s
+Time: 4393 s
+Time: 4394 s
+Time: 4395 s
+Time: 4396 s
+Time: 4397 s
+Time: 4398 s
+Time: 4399 s
+Time: 4400 s
+Time: 4401 s
+Time: 4402 s
+Time: 4403 s
+Time: 4404 s
+Time: 4405 s
+Time: 4406 s
+Time: 4407 s
+Time: 4408 s
+Time: 4409 s
+Time: 4410 s
+Time: 4411 s
+Time: 4412 s
+Time: 4413 s
+Time: 4414 s
+Time: 4415 s
+Time: 4416 s
+Time: 4417 s
+Time: 4418 s
+Time: 4419 s
+Time: 4420 s
+Time: 4421 s
+Time: 4422 s
+Time: 4423 s
+Time: 4424 s
+Time: 4425 s
+Time: 4426 s
+Time: 4427 s
+Time: 4428 s
+Time: 4429 s
+Time: 4430 s
+Time: 4431 s
+Time: 4432 s
+Time: 4433 s
+Time: 4434 s
+Time: 4435 s
+Time: 4436 s
+Time: 4437 s
+Time: 4438 s
+Time: 4439 s
+Time: 4440 s
+Time: 4441 s
+Time: 4442 s
+Time: 4443 s
+Time: 4444 s
+Time: 4445 s
+Time: 4446 s
+Time: 4447 s
+Time: 4448 s
+Time: 4449 s
+Time: 4450 s
+Time: 4451 s
+Time: 4452 s
+Time: 4453 s
+Time: 4454 s
+Time: 4455 s
+Time: 4456 s
+Time: 4457 s
+Time: 4458 s
+Time: 4459 s
+Time: 4460 s
+Time: 4461 s
+Time: 4462 s
+Time: 4463 s
+Time: 4464 s
+Time: 4465 s
+Time: 4466 s
+Time: 4467 s
+Time: 4468 s
+Time: 4469 s
+Time: 4470 s
+Time: 4471 s
+Time: 4472 s
+Time: 4473 s
+Time: 4474 s
+Time: 4475 s
+Time: 4476 s
+Time: 4477 s
+Time: 4478 s
+Time: 4479 s
+Time: 4480 s
+Time: 4481 s
+Time: 4482 s
+Time: 4483 s
+Time: 4484 s
+Time: 4485 s
+Time: 4486 s
+Time: 4487 s
+Time: 4488 s
+Time: 4489 s
+Time: 4490 s
+Time: 4491 s
+Time: 4492 s
+Time: 4493 s
+Time: 4494 s
+Time: 4495 s
+Time: 4496 s
+Time: 4497 s
+Time: 4498 s
+Time: 4499 s
+Time: 4500 s
+Time: 4501 s
+Time: 4502 s
+Time: 4503 s
+Time: 4504 s
+Time: 4505 s
+Time: 4506 s
+Time: 4507 s
+Time: 4508 s
+Time: 4509 s
+Time: 4510 s
+Time: 4511 s
+Time: 4512 s
+Time: 4513 s
+Time: 4514 s
+Time: 4515 s
+Time: 4516 s
+Time: 4517 s
+Time: 4518 s
+Time: 4519 s
+Time: 4520 s
+Time: 4521 s
+Time: 4522 s
+Time: 4523 s
+Time: 4524 s
+Time: 4525 s
+Time: 4526 s
+Time: 4527 s
+Time: 4528 s
+Time: 4529 s
+Time: 4530 s
+Time: 4531 s
+Time: 4532 s
+Time: 4533 s
+Time: 4534 s
+Time: 4535 s
+Time: 4536 s
+Time: 4537 s
+Time: 4538 s
+Time: 4539 s
+Time: 4540 s
+Time: 4541 s
+Time: 4542 s
+Time: 4543 s
+Time: 4544 s
+Time: 4545 s
+Time: 4546 s
+Time: 4547 s
+Time: 4548 s
+Time: 4549 s
+Time: 4550 s
+Time: 4551 s
+Time: 4552 s
+Time: 4553 s
+Time: 4554 s
+Time: 4555 s
+Time: 4556 s
+Time: 4557 s
+Time: 4558 s
+Time: 4559 s
+Time: 4560 s
+Time: 4561 s
+Time: 4562 s
+Time: 4563 s
+Time: 4564 s
+Time: 4565 s
+Time: 4566 s
+Time: 4567 s
+Time: 4568 s
+Time: 4569 s
+Time: 4570 s
+Time: 4571 s
+Time: 4572 s
+Time: 4573 s
+Time: 4574 s
+Time: 4575 s
+Time: 4576 s
+Time: 4577 s
+Time: 4578 s
+Time: 4579 s
+Time: 4580 s
+Time: 4581 s
+Time: 4582 s
+Time: 4583 s
+Time: 4584 s
+Time: 4585 s
+Time: 4586 s
+Time: 4587 s
+Time: 4588 s
+Time: 4589 s
+Time: 4590 s
+Time: 4591 s
+Time: 4592 s
+Time: 4593 s
+Time: 4594 s
+Time: 4595 s
+Time: 4596 s
+Time: 4597 s
+Time: 4598 s
+Time: 4599 s
+Time: 4600 s
+Time: 4601 s
+Time: 4602 s
+Time: 4603 s
+Time: 4604 s
+Time: 4605 s
+Time: 4606 s
+Time: 4607 s
+Time: 4608 s
+Time: 4609 s
+Time: 4610 s
+Time: 4611 s
+Time: 4612 s
+Time: 4613 s
+Time: 4614 s
+Time: 4615 s
+Time: 4616 s
+Time: 4617 s
+Time: 4618 s
+Time: 4619 s
+Time: 4620 s
+Time: 4621 s
+Time: 4622 s
+Time: 4623 s
+Time: 4624 s
+Time: 4625 s
+Time: 4626 s
+Time: 4627 s
+Time: 4628 s
+Time: 4629 s
+Time: 4630 s
+Time: 4631 s
+Time: 4632 s
+Time: 4633 s
+Time: 4634 s
+Time: 4635 s
+Time: 4636 s
+Time: 4637 s
+Time: 4638 s
+Time: 4639 s
+Time: 4640 s
+Time: 4641 s
+Time: 4642 s
+Time: 4643 s
+Time: 4644 s
+Time: 4645 s
+Time: 4646 s
+Time: 4647 s
+Time: 4648 s
+Time: 4649 s
+Time: 4650 s
+Time: 4651 s
+Time: 4652 s
+Time: 4653 s
+Time: 4654 s
+Time: 4655 s
+Time: 4656 s
+Time: 4657 s
+Time: 4658 s
+Time: 4659 s
+Time: 4660 s
+Time: 4661 s
+Time: 4662 s
+Time: 4663 s
+Time: 4664 s
+Time: 4665 s
+Time: 4666 s
+Time: 4667 s
+Time: 4668 s
+Time: 4669 s
+Time: 4670 s
+Time: 4671 s
+Time: 4672 s
+Time: 4673 s
+Time: 4674 s
+Time: 4675 s
+Time: 4676 s
+Time: 4677 s
+Time: 4678 s
+Time: 4679 s
+Time: 4680 s
+Time: 4681 s
+Time: 4682 s
+Time: 4683 s
+Time: 4684 s
+Time: 4685 s
+Time: 4686 s
+Time: 4687 s
+Time: 4688 s
+Time: 4689 s
+Time: 4690 s
+Time: 4691 s
+Time: 4692 s
+Time: 4693 s
+Time: 4694 s
+Time: 4695 s
+Time: 4696 s
+Time: 4697 s
+Time: 4698 s
+Time: 4699 s
+Time: 4700 s
+Time: 4701 s
+Time: 4702 s
+Time: 4703 s
+Time: 4704 s
+Time: 4705 s
+Time: 4706 s
+Time: 4707 s
+Time: 4708 s
+Time: 4709 s
+Time: 4710 s
+Time: 4711 s
+Time: 4712 s
+Time: 4713 s
+Time: 4714 s
+Time: 4715 s
+Time: 4716 s
+Time: 4717 s
+Time: 4718 s
+Time: 4719 s
+Time: 4720 s
+Time: 4721 s
+Time: 4722 s
+Time: 4723 s
+Time: 4724 s
+Time: 4725 s
+Time: 4726 s
+Time: 4727 s
+Time: 4728 s
+Time: 4729 s
+Time: 4730 s
+Time: 4731 s
+Time: 4732 s
+Time: 4733 s
+Time: 4734 s
+Time: 4735 s
+Time: 4736 s
+Time: 4737 s
+Time: 4738 s
+Time: 4739 s
+Time: 4740 s
+Time: 4741 s
+Time: 4742 s
+Time: 4743 s
+Time: 4744 s
+Time: 4745 s
+Time: 4746 s
+Time: 4747 s
+Time: 4748 s
+Time: 4749 s
+Time: 4750 s
+Time: 4751 s
+Time: 4752 s
+Time: 4753 s
+Time: 4754 s
+Time: 4755 s
+Time: 4756 s
+Time: 4757 s
+Time: 4758 s
+Time: 4759 s
+Time: 4760 s
+Time: 4761 s
+Time: 4762 s
+Time: 4763 s
+Time: 4764 s
+Time: 4765 s
+Time: 4766 s
+Time: 4767 s
+Time: 4768 s
+Time: 4769 s
+Time: 4770 s
+Time: 4771 s
+Time: 4772 s
+Time: 4773 s
+Time: 4774 s
+Time: 4775 s
+Time: 4776 s
+Time: 4777 s
+Time: 4778 s
+Time: 4779 s
+Time: 4780 s
+Time: 4781 s
+Time: 4782 s
+Time: 4783 s
+Time: 4784 s
+Time: 4785 s
+Time: 4786 s
+Time: 4787 s
+Time: 4788 s
+Time: 4789 s
+Time: 4790 s
+Time: 4791 s
+Time: 4792 s
+Time: 4793 s
+Time: 4794 s
+Time: 4795 s
+Time: 4796 s
+Time: 4797 s
+Time: 4798 s
+Time: 4799 s
+Time: 4800 s
+Time: 4801 s
+Time: 4802 s
+Time: 4803 s
+Time: 4804 s
+Time: 4805 s
+Time: 4806 s
+Time: 4807 s
+Time: 4808 s
+Time: 4809 s
+Time: 4810 s
+Time: 4811 s
+Time: 4812 s
+Time: 4813 s
+Time: 4814 s
+Time: 4815 s
+Time: 4816 s
+Time: 4817 s
+Time: 4818 s
+Time: 4819 s
+Time: 4820 s
+Time: 4821 s
+Time: 4822 s
+Time: 4823 s
+Time: 4824 s
+Time: 4825 s
+Time: 4826 s
+Time: 4827 s
+Time: 4828 s
+Time: 4829 s
+Time: 4830 s
+Time: 4831 s
+Time: 4832 s
+Time: 4833 s
+Time: 4834 s
+Time: 4835 s
+Time: 4836 s
+Time: 4837 s
+Time: 4838 s
+Time: 4839 s
+Time: 4840 s
+Time: 4841 s
+Time: 4842 s
+Time: 4843 s
+Time: 4844 s
+Time: 4845 s
+Time: 4846 s
+Time: 4847 s
+Time: 4848 s
+Time: 4849 s
+Time: 4850 s
+Time: 4851 s
+Time: 4852 s
+Time: 4853 s
+Time: 4854 s
+Time: 4855 s
+Time: 4856 s
+Time: 4857 s
+Time: 4858 s
+Time: 4859 s
+Time: 4860 s
+Time: 4861 s
+Time: 4862 s
+Time: 4863 s
+Time: 4864 s
+Time: 4865 s
+Time: 4866 s
+Time: 4867 s
+Time: 4868 s
+Time: 4869 s
+Time: 4870 s
+Time: 4871 s
+Time: 4872 s
+Time: 4873 s
+Time: 4874 s
+Time: 4875 s
+Time: 4876 s
+Time: 4877 s
+Time: 4878 s
+Time: 4879 s
+Time: 4880 s
+Time: 4881 s
+Time: 4882 s
+Time: 4883 s
+Time: 4884 s
+Time: 4885 s
+Time: 4886 s
+Time: 4887 s
+Time: 4888 s
+Time: 4889 s
+Time: 4890 s
+Time: 4891 s
+Time: 4892 s
+Time: 4893 s
+Time: 4894 s
+Time: 4895 s
+Time: 4896 s
+Time: 4897 s
+Time: 4898 s
+Time: 4899 s
+Time: 4900 s
+Time: 4901 s
+Time: 4902 s
+Time: 4903 s
+Time: 4904 s
+Time: 4905 s

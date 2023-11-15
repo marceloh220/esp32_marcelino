@@ -1,0 +1,58 @@
+ets ��������0:22:57C�HH���0x1B�=]I=9}IMT),boot:��3 (SPI_TMT_FLASH_�ꊕj
+co˥�ͥ�� 0	�A%]A�0xYYC�,k�E���0x00,q_d.����0,d_���0x00,�.�����0�0,hd_dr����0,wp_���0x00
+[���DIO,�����div�j
+load:��fff0030����7432!�+��0x40��000,len��576
+loX����008��0,len:SH�8 tXZ������4
+load:��008040����4284C������0x�80668
+[0;32mI (30) boot: ESP-IDF v5.1.1-dirty 2nd stage bootloader[0m
+[0;32mI (30) boot: compile time Nov 11 2023 12:23:34[0m
+[0;32mI (30) boot: Multicore bootloader[0m
+[0;32mI (35) boot: chip revision: v1.0[0m
+[0;32mI (39) qio_mode: Enabling default flash chip QIO[0m
+[0;32mI (44) boot.esp32: SPI Speed      : 80MHz[0m
+[0;32mI (49) boot.esp32: SPI Mode       : QIO[0m
+[0;32mI (53) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (58) boot: Enabling RNG early entropy source...[0m
+[0;32mI (63) boot: Partition Table:[0m
+[0;32mI (67) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (74) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (81) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (89) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (96) boot: End of partition table[0m
+[0;32mI (101) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0a3a4h ( 41892) map[0m
+[0;32mI (121) esp_image: segment 1: paddr=0001a3cc vaddr=3ffb0000 size=021b8h (  8632) load[0m
+[0;32mI (124) esp_image: segment 2: paddr=0001c58c vaddr=40080000 size=03a8ch ( 14988) load[0m
+[0;32mI (133) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=1864ch ( 99916) map[0m
+[0;32mI (164) esp_image: segment 4: paddr=00038674 vaddr=40083a8c size=08828h ( 34856) load[0m
+[0;32mI (182) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (182) boot: Disabling RNG early entropy source...[0m
+[0;32mI (194) cpu_start: Multicore app[0m
+[0;32mI (194) cpu_start: Pro cpu up.[0m
+[0;32mI (194) cpu_start: Starting app cpu, entry point is 0x400811e0[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (212) cpu_start: Pro cpu start user code[0m
+[0;32mI (212) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (212) cpu_start: Application information:[0m
+[0;32mI (217) cpu_start: Project name:     marcelino[0m
+[0;32mI (222) cpu_start: App version:      729d225-dirty[0m
+[0;32mI (227) cpu_start: Compile time:     Nov 11 2023 12:23:09[0m
+[0;32mI (233) cpu_start: ELF file SHA256:  f0693006bdccec39...[0m
+[0;32mI (239) cpu_start: ESP-IDF:          v5.1.1-dirty[0m
+[0;32mI (245) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (249) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (254) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (259) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (266) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (272) heap_init: At 3FFB2AB0 len 0002D550 (181 KiB): DRAM[0m
+[0;32mI (279) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (285) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (291) heap_init: At 4008C2B4 len 00013D4C (79 KiB): IRAM[0m
+[0;32mI (298) spi_flash: detected chip: generic[0m
+[0;32mI (302) spi_flash: flash io: qio[0m
+[0;32mI (306) Blink LED G: Task created[0m
+[0;32mI (310) Print MSG: Task created[0m
+[0;32mI (314) app_start: Starting scheduler on CPU0[0m
+[0;32mI (319) app_start: Starting scheduler on CPU1[0m
+[0;32mI (319) main_task: Started on CPU0[0m
+[0;32mI (329) main_task: Calling app_main()[0m
+00:00:0000:00:0100:00:0200:00:0300:00:0400:00:0500:00:0600:00:0700:00:0800:00:0900:00:1000:00:1100:00:1200:00:1300:00:1400:00:1500:00:1600:00:1700:00:1800:00:1900:00:2000:00:2100:00:2200:00:2300:00:2400:00:2500:00:2600:00:2700:00:2800:00:2900:00:3000:00:3100:00:3200:00:3300:00:3400:00:3500:00:3600:00:3700:00:3800:00:3900:00:4000:00:4100:00:4200:00:4300:00:4400:00:4500:00:4600:00:4700:00:4800:00:4900:00:5000:00:5100:00:5200:00:5300:00:5400:00:5500:00:5600:00:5700:00:5800:00:5900:01:0000:01:0100:01:0200:01:0300:01:0400:01:0500:01:0600:01:0700:01:0800:01:0900:01:1000:01:1100:01:1200:01:1300:01:1400:01:1500:01:1600:01:1700:01:1800:01:19

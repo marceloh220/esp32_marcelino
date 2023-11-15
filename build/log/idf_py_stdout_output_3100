@@ -1,0 +1,103 @@
+ets �����16 0�'&&��SH�Hrs�'�� (�]I=9}RESETJI����0x13 (*�}MQ_FLAS�%==Q�
+confi֥�� �	�A%]A�0xee�,k}����0x00,�E���0x�,d_dr��x00,�.�����0x00,h�E���0�0,wp_���0x0j
+mod�'T� ,�k��dZ��j
+l+��0x3����bb�n:7432C!녑�0x400780��len:�Sӓ�H��+��0x4��0400����4
+������4 roo[�
+loa��x4008�04,leK�284
+Y��偰�00806j
+[0;32mI (30) boot: ESP-IDF v5.1.1-dirty 2nd stage bootloader[0m
+[0;32mI (30) boot: compile time Nov 11 2023 12:23:34[0m
+[0;32mI (30) boot: Multicore bootloader[0m
+[0;32mI (35) boot: chip revision: v1.0[0m
+[0;32mI (39) qio_mode: Enabling default flash chip QIO[0m
+[0;32mI (44) boot.esp32: SPI Speed      : 80MHz[0m
+[0;32mI (49) boot.esp32: SPI Mode       : QIO[0m
+[0;32mI (53) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (58) boot: Enabling RNG early entropy source...[0m
+[0;32mI (63) boot: Partition Table:[0m
+[0;32mI (67) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (74) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (81) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (89) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (96) boot: End of partition table[0m
+[0;32mI (101) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0a014h ( 40980) map[0m
+[0;32mI (120) esp_image: segment 1: paddr=0001a03c vaddr=3ffb0000 size=02158h (  8536) load[0m
+[0;32mI (123) esp_image: segment 2: paddr=0001c19c vaddr=40080000 size=03e7ch ( 15996) load[0m
+[0;32mI (134) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=180d0h ( 98512) map[0m
+[0;32mI (164) esp_image: segment 4: paddr=000380f8 vaddr=40083e7c size=08410h ( 33808) load[0m
+[0;32mI (181) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (181) boot: Disabling RNG early entropy source...[0m
+[0;32mI (193) cpu_start: Multicore app[0m
+[0;32mI (193) cpu_start: Pro cpu up.[0m
+[0;32mI (193) cpu_start: Starting app cpu, entry point is 0x400811e0[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (211) cpu_start: Pro cpu start user code[0m
+[0;32mI (211) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (211) cpu_start: Application information:[0m
+[0;32mI (216) cpu_start: Project name:     marcelino[0m
+[0;32mI (221) cpu_start: App version:      729d225-dirty[0m
+[0;32mI (227) cpu_start: Compile time:     Nov 11 2023 12:23:09[0m
+[0;32mI (233) cpu_start: ELF file SHA256:  25f8341237a0f77a...[0m
+[0;32mI (239) cpu_start: ESP-IDF:          v5.1.1-dirty[0m
+[0;32mI (244) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (249) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (254) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (258) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (265) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (272) heap_init: At 3FFB2A28 len 0002D5D8 (181 KiB): DRAM[0m
+[0;32mI (278) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (284) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (291) heap_init: At 4008C28C len 00013D74 (79 KiB): IRAM[0m
+[0;32mI (297) spi_flash: detected chip: generic[0m
+[0;32mI (301) spi_flash: flash io: qio[0m
+[0;32mI (305) Blink LED G: Task created[0m
+[0;32mI (309) Print MSG: Task created[0m
+[0;32mI (313) app_start: Starting scheduler on CPU0[0m
+[0;32mI (318) app_start: Starting scheduler on CPU1[0m
+[0;32mI (318) main_task: Started on CPU0[0m
+[0;32mI (328) main_task: Calling app_main()[0m
+Time: 0 s
+Time: 1 s
+Time: 2 s
+Time: 3 s
+Time: 4 s
+Time: 5 s
+Time: 6 s
+Time: 7 s
+Time: 8 s
+Time: 9 s
+Time: 10 s
+Time: 11 s
+Time: 12 s
+Time: 13 s
+Time: 14 s
+Time: 15 s
+Time: 16 s
+Time: 17 s
+Time: 18 s
+Time: 19 s
+Time: 20 s
+Time: 21 s
+Time: 22 s
+Time: 23 s
+Time: 24 s
+Time: 25 s
+Time: 26 s
+Time: 27 s
+Time: 28 s
+Time: 29 s
+Time: 30 s
+Time: 31 s
+Time: 32 s
+Time: 33 s
+Time: 34 s
+Time: 35 s
+Time: 36 s
+Time: 37 s
+Time: 38 s
+Time: 39 s
+Time: 40 s
+Time: 41 s
+Time: 42 s
+Time: 43 s
+Time: 44 s
