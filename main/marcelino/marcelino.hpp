@@ -21,4 +21,6 @@
 
 #include "timer.hpp"
 
+#include "oled.h"
+
 #endif

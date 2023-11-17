@@ -16,6 +16,8 @@
     "idf.toolsPathWin": "C:\\Users\\marce\\.espressif",
     "files.associations": {
         "ratio": "cpp",
-        "esp_timer.h": "c"
+        "esp_timer.h": "c",
+        "new": "cpp",
+        "system_error": "c"
     }
 }

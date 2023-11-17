@@ -1,25 +1,28 @@
 #include "marcelino/marcelino.hpp"
 
 void ISR_blink(TimerHandle_t);
-Timer timer0(ISR_blink, "Timer 0", 250ms);
+Timer *timer0 = new Timer(ISR_blink, "Timer 0", 250ms);
+Timer *timer1 = new Timer(ISR_blink, "Timer 1", 500ms);
 
-Timer timer1(ISR_blink, "Timer 1", 500ms);
-
-Semaphore blinkSemaphore;
-Queue<char*> msg(10);
+Semaphore *blinkSemaphore = new Semaphore;
+Queue<char*> *msg = new Queue<char*>(10);
 
 void blink_callback(arg_t arg);
 void print_callback(arg_t arg);
 
-Task blink_task(blink_callback, "Blink LED G", 1);
-Task print_task(print_callback, "Print MSG", 1);
+Task *blink_task = new Task(blink_callback, "Blink LED G", 1);
+Task *print_task = new Task(print_callback, "Print MSG", 1);
+
+Oled *display = new Oled;
 
 extern "C" void app_main() {
 
     char* msgToPrint = new char[40];
 
-    timer0.start();
-    timer1.start();
+    timer0->start();
+    timer1->start();
+
+    display->begin();
 
     while (1) {
 
@@ -33,9 +36,9 @@ extern "C" void app_main() {
 
         strftime(msgToPrint, 40, "%H:%M:%S\n", &timer_str);
 
-        msg.send(&msgToPrint);
+        msg->send(&msgToPrint);
         
-        blinkSemaphore.give();
+        blinkSemaphore->give();
 
         delay(1s);
     
@@ -47,12 +50,12 @@ extern "C" void app_main() {
 
 void blink_callback(arg_t arg) {
 
-    Output *led_g = new Output(LED_G);
+    static Output led_g(LED_G);
 
     while(1) {
 
-        blinkSemaphore.take();
-        *led_g ^= 1;
+        blinkSemaphore->take();
+        led_g ^= 1;
 
     }
 
@@ -64,7 +67,7 @@ void print_callback(void* arg) {
 
     while (1) {
 
-        if(msg.receive(&msgToPrint) == pdPASS) {
+        if(msg->receive(&msgToPrint) == pdPASS) {
             printf("%s", msgToPrint);
         }
 
@@ -78,13 +81,13 @@ void print_callback(void* arg) {
 
 void ISR_blink(TimerHandle_t timer) {
 
-    static Output led_r(LED_R);
-    static Output led_y(LED_Y);
+    static Output *led_r = new Output(LED_R);
+    static Output *led_y = new Output(LED_Y);
 
-    if(timer0.verifyID(timer))
-        led_r ^= 1;
+    if(timer0->verifyID(timer))
+        led_r->toggle();
 
-    if(timer1.verifyID(timer))
-        led_y ^= 1;
+    if(timer1->verifyID(timer))
+        led_y->toggle();
 
 }

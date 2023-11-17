@@ -17,14 +17,13 @@ class Task {
 public:
 
     Task(TaskFunction_t callback, const char* name, UBaseType_t priority = 0, uint32_t stackSize = 2048, void* args = NULL) :
-    _callback(callback), _name(name), _priority(priority), _stackSize(stackSize), _args(args) {
-        _handle = new TaskHandle_t;
+    _callback(callback), _name(name), _priority(priority), _stackSize(stackSize), _args(args)
+    {
         attach();
     }
 
     ~Task() {
-        vTaskDelete(*_handle);
-        delete _handle;
+        vTaskDelete(_handle);
     }
 
     inline void delayUntil(const TickType_t time) {
@@ -32,19 +31,19 @@ public:
     }
 
     inline BaseType_t abortDelay() {
-        return xTaskAbortDelay(*_handle);
+        return xTaskAbortDelay(_handle);
     }
 
     inline void suspend() {
-        vTaskSuspend(*_handle);
+        vTaskSuspend(_handle);
     }
 
     inline void resume() {
-        vTaskResume(*_handle);
+        vTaskResume(_handle);
     }
 
     inline BaseType_t resumeFromISR() {
-        return xTaskResumeFromISR(*_handle);
+        return xTaskResumeFromISR(_handle);
     }
 
     inline const char* name() { return _name;}
@@ -52,7 +51,7 @@ public:
     inline UBaseType_t priority() { return _priority;}
     inline void priority(UBaseType_t priority) { 
         _priority = priority;
-        vTaskPrioritySet(*_handle, priority);
+        vTaskPrioritySet(_handle, priority);
     }
 
     inline uint32_t stackSize() { return _stackSize;}
@@ -72,13 +71,13 @@ private:
     UBaseType_t _priority;
     uint32_t _stackSize;
     void* _args;
-    TaskHandle_t *_handle;
+    TaskHandle_t _handle;
     bool _created = false;
     TickType_t previousTime = 0;
 
-    void attach() {
+    inline void attach() {
         if(!_created) {
-            esp_err_t error = xTaskCreate(_callback, _name, _stackSize, _args, _priority, _handle);
+            esp_err_t error = xTaskCreate(_callback, _name, _stackSize, _args, _priority, &_handle);
             if(error == pdPASS) {
                 ESP_LOGI(_name, "Task created");
                 _created = true;

@@ -27,7 +27,7 @@ public:
         gpio_set_level((gpio_num_t)pin, level);
     }
 
-    void toggle(int level) {
+    void toggle(int level = 1) {
         if(level) {
             state ^= 1;
             write(state);
