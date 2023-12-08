@@ -1,57 +1,0 @@
-ets���201��Ғ�:57���r����� (POWQ���%UMQ�,boo����3 (SPReMQ_FLA*�%==T)
-�˙��sip��, ��]A�0xeeC�,k�E���0x00,\E���0x0��}���:0x�,cs�����0x00	�}��v:0��b���drv���0��닕:DIO	���k d闊j
-load'������,leK����
-l+��0�00����bb���16576C!�+�:0x��80��bb��:4!끸���� 4 �뫁�C!�+�:0x���4,�Yˢ��4
-Y���0x4����
-[0;32mI (30) boot: ESP-IDF v5.1.1-dirty 2nd stage bootloader[0m
-[0;32mI (30) boot: compile time Nov 11 2023 12:23:34[0m
-[0;32mI (30) boot: Multicore bootloader[0m
-[0;32mI (35) boot: chip revision: v1.0[0m
-[0;32mI (39) qio_mode: Enabling default flash chip QIO[0m
-[0;32mI (44) boot.esp32: SPI Speed      : 80MHz[0m
-[0;32mI (49) boot.esp32: SPI Mode       : QIO[0m
-[0;32mI (53) boot.esp32: SPI Flash Size : 4MB[0m
-[0;32mI (58) boot: Enabling RNG early entropy source...[0m
-[0;32mI (63) boot: Partition Table:[0m
-[0;32mI (67) boot: ## Label            Usage          Type ST Offset   Length[0m
-[0;32mI (74) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
-[0;32mI (81) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
-[0;32mI (89) boot:  2 factory          factory app      00 00 00010000 00100000[0m
-[0;32mI (96) boot: End of partition table[0m
-[0;32mI (101) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0a014h ( 40980) map[0m
-[0;32mI (120) esp_image: segment 1: paddr=0001a03c vaddr=3ffb0000 size=02158h (  8536) load[0m
-[0;32mI (123) esp_image: segment 2: paddr=0001c19c vaddr=40080000 size=03e7ch ( 15996) load[0m
-[0;32mI (133) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=180d0h ( 98512) map[0m
-[0;32mI (164) esp_image: segment 4: paddr=000380f8 vaddr=40083e7c size=08410h ( 33808) load[0m
-[0;32mI (181) boot: Loaded app from partition at offset 0x10000[0m
-[0;32mI (181) boot: Disabling RNG early entropy source...[0m
-[0;32mI (193) cpu_start: Multicore app[0m
-[0;32mI (193) cpu_start: Pro cpu up.[0m
-[0;32mI (193) cpu_start: Starting app cpu, entry point is 0x400811e0[0m
-[0;32mI (0) cpu_start: App cpu up.[0m
-[0;32mI (211) cpu_start: Pro cpu start user code[0m
-[0;32mI (211) cpu_start: cpu freq: 240000000 Hz[0m
-[0;32mI (211) cpu_start: Application information:[0m
-[0;32mI (216) cpu_start: Project name:     marcelino[0m
-[0;32mI (221) cpu_start: App version:      729d225-dirty[0m
-[0;32mI (227) cpu_start: Compile time:     Nov 11 2023 12:23:09[0m
-[0;32mI (233) cpu_start: ELF file SHA256:  ea9dd911873dc4ae...[0m
-[0;32mI (239) cpu_start: ESP-IDF:          v5.1.1-dirty[0m
-[0;32mI (244) cpu_start: Min chip rev:     v0.0[0m
-[0;32mI (249) cpu_start: Max chip rev:     v3.99 [0m
-[0;32mI (254) cpu_start: Chip rev:         v1.0[0m
-[0;32mI (258) heap_init: Initializing. RAM available for dynamic allocation:[0m
-[0;32mI (265) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
-[0;32mI (271) heap_init: At 3FFB2A28 len 0002D5D8 (181 KiB): DRAM[0m
-[0;32mI (278) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
-[0;32mI (284) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
-[0;32mI (291) heap_init: At 4008C28C len 00013D74 (79 KiB): IRAM[0m
-[0;32mI (297) spi_flash: detected chip: generic[0m
-[0;32mI (301) spi_flash: flash io: qio[0m
-[0;32mI (305) Blink LED G: Task created[0m
-[0;32mI (309) Print MSG: Task created[0m
-[0;32mI (313) app_start: Starting scheduler on CPU0[0m
-[0;32mI (318) app_start: Starting scheduler on CPU1[0m
-[0;32mI (318) main_task: Started on CPU0[0m
-[0;32mI (328) main_task: Calling app_main()[0m
-Time���?#�P��;K�W�B�U+�WA��FW�Time���?#�P��;K�W�B�U+�WA��FW�Time���?#�P��;K�W�B�U+�WA��FW�Time���?#�P��;K�W�B�U+�WA��FW�Time���?#�P��;K�W�B�U+�WA��FW�Time���?#�P��;K�W�B�U+�WA��FW�Time���?#�P��;K�W�B�U+�WA��FW�Time���?#�P��;K�W�B�U+�WA��FW�Time���?#�P��;K�W�B�U+�WA��FW�Time���?#�P��;K�W�B�U+�WA��FW�Time���?#�P��;K�W�B�U+�WA��FW�Time���?#�P��;K�W�B�U+�WA��FW�Time���?#�P��;K�W�B�U+�WA��FW�Time���?#�P��;K�W�B�U+�WA��FW�Time���?#�P��;K�W�B�U+�WA��FW�Time���?#�P��;K�W�B�U+�WA��FW�Time���?#�P��;K�W�B�U+�WA��FW�Time���?#�P��;K�W�B�U+�WA��FW�Time���?#�P��;K�W�B�U+�WA��FW�Time���?#�P��;K�W�B�U+�WA��FW�Time���?#�P��;K�W�B�U+�WA��FW�Time���?#�P��;K�W�B�U+�WA��FW�Time���?#�P��;K�W�B�U+�WA��FW�Time���?#�P��;K�W�B�U+�WA��FW�Time���?#�P��;K�W�B�U+�WA��FW�Time���?#�P��;K�W�B�U+�WA��FW�Time���?#�P��;K�W�B�U+�WA��FW�Time���?#�P��;K�W�B�U+�WA��FW�Time���?#�P��;K�W�B�U+�WA��FW�Time���?#�P��;K�W�B�U+�WA��FW�Time���?#�P��;K�W�B�U+�WA��FW�Time���?#�P��;K�W�B�U+�WA��FW�Time���?#�P��;K�W�B�U+�WA��FW�Time���?#�P��;K�W�B�U+�WA��FW�Time���?#�P��;K�W�B�U+�WA��FW�Time���?#�P��;K�W�B�U+�WA��FW�Time���?#�P��;K�W�B�U+�WA��FW�Time���?#�P��;K�W�B�U+�WA��FW�Time���?#�P��;K�W�B�U+�WA��FW�Time���?#�P��;K�W�B�U+�WA��FW�Time���?#�P��;K�W�B�U+�WA��FW�Time���?#�P��;K�W�B�U+�WA��FW�Time���?#�P��;K�W�B�U+�WA��FW�Time���?#�P��;K�W�B�U+�WA��FW�Time���?#�P��;K�W�B�U+�WA��FW�Time���?#�P��;K�W�B�U+�WA��FW�Time���?#�P��;K�W�B�U+�WA��FW�Time���?#�P��;K�W�B�U+�WA��FW�Time���?#�P��;K�W�B�U+�WA��FW�Time���?#�P��;K�W�B�U+�WA��FW�Time���?#�P��;K�W�B�U+�WA��FW�Time���?#�P��;K�W�B�U+�WA��FW�Time���?#�P��;K�W�B�U+�WA��FW�Time���?#�P��;K�W�B�U+�WA��FW�Time���?#�P��;K�W�B�U+�WA��FW�Time���?#�P��;K�W�B�U+�WA��FW�Time���?#�P��;K�W�B�U+�WA��FW�Time���?#�P��;K�W�B�U+�WA��FW�Time���?#�P��;K�W�B�U+�WA��FW�Time���?#�P��;K�W�B�U+�WA��FW�Time���?#�P��;K�W�B�U+�WA��FW�Time���?#�P��;K�W�B�U+�WA��FW�Time���?#�P��;K�W�B�U+�WA��FW�Time���?#�P��;K�W�B�U+�WA��FW�Time���?#�P��;K�W�B�U+�WA��FW�Time���?#�P��;K�W�B�U+�WA��FW�Time���?#�P��;K�W�B�U+�WA��FW�Time���?#�P��;K�W�B�U+�WA��FW�Time���?#�P��;K�W�B�U+�WA��FW�Time���?#�P��;K�W�B�U+�WA��FW�Time���?#�P��;K�W�B�U+�WA��FW�Time���?#�P��;K

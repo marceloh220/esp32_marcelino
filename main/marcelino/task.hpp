@@ -16,8 +16,14 @@ class Task {
 
 public:
 
-    Task(TaskFunction_t callback, const char* name, UBaseType_t priority = 0, uint32_t stackSize = 2048, void* args = NULL) :
-    _callback(callback), _name(name), _priority(priority), _stackSize(stackSize), _args(args)
+    typedef enum  pinCore {
+        CORE_0,
+        CORE_1,
+        NO_AFINITY,
+    } pinCore_t;
+
+    Task(TaskFunction_t callback, const char* name, UBaseType_t priority = 0, uint32_t stackSize = 2048, pinCore_t core = NO_AFINITY, arg_t args = NULL) :
+    _callback(callback), _name(name), _priority(priority), _stackSize(stackSize), _core(core), _args(args)
     {
         attach();
     }
@@ -26,8 +32,8 @@ public:
         vTaskDelete(_handle);
     }
 
-    inline void delayUntil(const TickType_t time) {
-        vTaskDelayUntil(&previousTime, time);
+    inline void delayUntil(milliseconds time) {
+        vTaskDelayUntil(&previousTime, CHRONO_TO_TICK(time));
     }
 
     inline BaseType_t abortDelay() {
@@ -58,26 +64,31 @@ public:
 
     template<typename type>
     inline type args() { return static_cast<type>(_args);}
+
     template<typename type>
-    inline void args(type args) { _args = static_cast<void*>(args);}
+    inline void args(type args) { _args = static_cast<arg_t>(args);}
 
     inline BaseType_t core() {
-        return xPortGetCoreID();
+        return _core;
     }
 
 private:
     TaskFunction_t _callback;
-    const char *_name;
-    UBaseType_t _priority;
-    uint32_t _stackSize;
-    void* _args;
+    const char * _name;
+    UBaseType_t  _priority;
+    uint32_t     _stackSize;
+    UBaseType_t  _core;
+    arg_t        _args;
     TaskHandle_t _handle;
-    bool _created = false;
-    TickType_t previousTime = 0;
+    bool         _created = false;
+    TickType_t   previousTime = 0;
 
     inline void attach() {
         if(!_created) {
-            esp_err_t error = xTaskCreate(_callback, _name, _stackSize, _args, _priority, &_handle);
+            esp_err_t error;
+            if(_core == NO_AFINITY) {
+                error = xTaskCreate(_callback, _name, _stackSize, _args, _priority, &_handle);
+            } else error = xTaskCreatePinnedToCore(_callback, _name, _stackSize, _args, _priority, &_handle, _core);
             if(error == pdPASS) {
                 ESP_LOGI(_name, "Task created");
                 _created = true;

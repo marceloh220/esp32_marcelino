@@ -1,227 +1,0 @@
-etsRչ������ 00�&&��SH�
-r.���� (POU��9}�ESE�JI���:0x�&B�A%_FAS�e1MH_BO��j
-�˙��sip:�, S�R���5
-,k}���:0x��q_d.����0,d_�.����0,cs�����0x00,��E���0x00�}���:0x0�C���:DIO	���� div�j
-loX����fff00&bb���7432C!녑�0x40����b╹�16576�!녑�0x40�0400����4C!�������4 roo[�j
-�+��0�008��bb�n:42�
-en��0����8
-[0;32mI (30) boot: ESP-IDF v5.1.1-dirty 2nd stage bootloader[0m
-[0;32mI (30) boot: compile time Nov 11 2023 12:23:34[0m
-[0;32mI (30) boot: Multicore bootloader[0m
-[0;32mI (35) boot: chip revision: v1.0[0m
-[0;32mI (39) qio_mode: Enabling default flash chip QIO[0m
-[0;32mI (44) boot.esp32: SPI Speed      : 80MHz[0m
-[0;32mI (49) boot.esp32: SPI Mode       : QIO[0m
-[0;32mI (53) boot.esp32: SPI Flash Size : 4MB[0m
-[0;32mI (58) boot: Enabling RNG early entropy source...[0m
-[0;32mI (63) boot: Partition Table:[0m
-[0;32mI (67) boot: ## Label            Usage          Type ST Offset   Length[0m
-[0;32mI (74) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
-[0;32mI (81) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
-[0;32mI (89) boot:  2 factory          factory app      00 00 00010000 00100000[0m
-[0;32mI (96) boot: End of partition table[0m
-[0;32mI (101) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0a014h ( 40980) map[0m
-[0;32mI (120) esp_image: segment 1: paddr=0001a03c vaddr=3ffb0000 size=02158h (  8536) load[0m
-[0;32mI (123) esp_image: segment 2: paddr=0001c19c vaddr=40080000 size=03e7ch ( 15996) load[0m
-[0;32mI (134) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=180d0h ( 98512) map[0m
-[0;32mI (164) esp_image: segment 4: paddr=000380f8 vaddr=40083e7c size=08410h ( 33808) load[0m
-[0;32mI (181) boot: Loaded app from partition at offset 0x10000[0m
-[0;32mI (181) boot: Disabling RNG early entropy source...[0m
-[0;32mI (193) cpu_start: Multicore app[0m
-[0;32mI (193) cpu_start: Pro cpu up.[0m
-[0;32mI (193) cpu_start: Starting app cpu, entry point is 0x400811e0[0m
-[0;32mI (0) cpu_start: App cpu up.[0m
-[0;32mI (211) cpu_start: Pro cpu start user code[0m
-[0;32mI (211) cpu_start: cpu freq: 240000000 Hz[0m
-[0;32mI (211) cpu_start: Application information:[0m
-[0;32mI (216) cpu_start: Project name:     marcelino[0m
-[0;32mI (221) cpu_start: App version:      729d225-dirty[0m
-[0;32mI (227) cpu_start: Compile time:     Nov 11 2023 12:23:09[0m
-[0;32mI (233) cpu_start: ELF file SHA256:  b595edb123519f63...[0m
-[0;32mI (239) cpu_start: ESP-IDF:          v5.1.1-dirty[0m
-[0;32mI (244) cpu_start: Min chip rev:     v0.0[0m
-[0;32mI (249) cpu_start: Max chip rev:     v3.99 [0m
-[0;32mI (254) cpu_start: Chip rev:         v1.0[0m
-[0;32mI (258) heap_init: Initializing. RAM available for dynamic allocation:[0m
-[0;32mI (265) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
-[0;32mI (272) heap_init: At 3FFB2A28 len 0002D5D8 (181 KiB): DRAM[0m
-[0;32mI (278) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
-[0;32mI (284) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
-[0;32mI (291) heap_init: At 4008C28C len 00013D74 (79 KiB): IRAM[0m
-[0;32mI (297) spi_flash: detected chip: generic[0m
-[0;32mI (301) spi_flash: flash io: qio[0m
-[0;32mI (305) Blink LED G: Task created[0m
-[0;32mI (309) Print MSG: Task created[0m
-[0;32mI (313) app_start: Starting scheduler on CPU0[0m
-[0;32mI (318) app_start: Starting scheduler on CPU1[0m
-[0;32mI (318) main_task: Started on CPU0[0m
-[0;32mI (328) main_task: Calling app_main()[0m
-Time: 0 s
-Time: 1 s
-Time: 2 s
-Time: 3 s
-Time: 4 s
-Time: 5 s
-Time: 6 s
-Time: 7 s
-Time: 8 s
-Time: 9 s
-Time: 10 s
-Time: 11 s
-Time: 12 s
-Time: 13 s
-Time: 14 s
-Time: 15 s
-Time: 16 s
-Time: 17 s
-Time: 18 s
-Time: 19 s
-Time: 20 s
-Time: 21 s
-Time: 22 s
-Time: 23 s
-Time: 24 s
-Time: 25 s
-Time: 26 s
-Time: 27 s
-Time: 28 s
-Time: 29 s
-Time: 30 s
-Time: 31 s
-Time: 32 s
-Time: 33 s
-Time: 34 s
-Time: 35 s
-Time: 36 s
-Time: 37 s
-Time: 38 s
-Time: 39 s
-Time: 40 s
-Time: 41 s
-Time: 42 s
-Time: 43 s
-Time: 44 s
-Time: 45 s
-Time: 46 s
-Time: 47 s
-Time: 48 s
-Time: 49 s
-Time: 50 s
-Time: 51 s
-Time: 52 s
-Time: 53 s
-Time: 54 s
-Time: 55 s
-Time: 56 s
-Time: 57 s
-Time: 58 s
-Time: 59 s
-Time: 60 s
-Time: 61 s
-Time: 62 s
-Time: 63 s
-Time: 64 s
-Time: 65 s
-Time: 66 s
-Time: 67 s
-Time: 68 s
-Time: 69 s
-Time: 70 s
-Time: 71 s
-Time: 72 s
-Time: 73 s
-Time: 74 s
-Time: 75 s
-Time: 76 s
-Time: 77 s
-Time: 78 s
-Time: 79 s
-Time: 80 s
-Time: 81 s
-Time: 82 s
-Time: 83 s
-Time: 84 s
-Time: 85 s
-Time: 86 s
-Time: 87 s
-Time: 88 s
-Time: 89 s
-Time: 90 s
-Time: 91 s
-Time: 92 s
-Time: 93 s
-Time: 94 s
-Time: 95 s
-Time: 96 s
-Time: 97 s
-Time: 98 s
-Time: 99 s
-Time: 100 s
-Time: 101 s
-Time: 102 s
-Time: 103 s
-Time: 104 s
-Time: 105 s
-Time: 106 s
-Time: 107 s
-Time: 108 s
-Time: 109 s
-Time: 110 s
-Time: 111 s
-Time: 112 s
-Time: 113 s
-Time: 114 s
-Time: 115 s
-Time: 116 s
-Time: 117 s
-Time: 118 s
-Time: 119 s
-Time: 120 s
-Time: 121 s
-Time: 122 s
-Time: 123 s
-Time: 124 s
-Time: 125 s
-Time: 126 s
-Time: 127 s
-Time: 128 s
-Time: 129 s
-Time: 130 s
-Time: 131 s
-Time: 132 s
-Time: 133 s
-Time: 134 s
-Time: 135 s
-Time: 136 s
-Time: 137 s
-Time: 138 s
-Time: 139 s
-Time: 140 s
-Time: 141 s
-Time: 142 s
-Time: 143 s
-Time: 144 s
-Time: 145 s
-Time: 146 s
-Time: 147 s
-Time: 148 s
-Time: 149 s
-Time: 150 s
-Time: 151 s
-Time: 152 s
-Time: 153 s
-Time: 154 s
-Time: 155 s
-Time: 156 s
-Time: 157 s
-Time: 158 s
-Time: 159 s
-Time: 160 s
-Time: 161 s
-Time: 162 s
-Time: 163 s
-Time: 164 s
-Time: 165 s
-Time: 166 s
-Time: 167 s
-Time: 168 s

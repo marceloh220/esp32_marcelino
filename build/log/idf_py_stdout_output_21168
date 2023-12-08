@@ -1,12 +1,0 @@
-[0/1] cmd.exe /C "cd /D C:\Users\marce\esp-idf\marcelino\build && C:\Espressif\tools\cmake\3.24.0\bin\cmake.exe -D IDF_SIZE_TOOL=C:/Espressif/python_env/idf5.1_py3.11_env/Scripts/python.exe;-m;esp_idf_size -D MAP_FILE=C:/Users/marce/esp-idf/marcelino/build/marcelino.map -D OUTPUT_JSON= -P C:/Espressif/frameworks/esp-idf-v5.1.1-2/tools/cmake/run_size_tool.cmake"
-Total sizes:
-Used static DRAM:   11360 bytes ( 169376 remain, 6.3% used)
-      .data size:    8664 bytes
-      .bss  size:    2696 bytes
-Used static IRAM:   51642 bytes (  79430 remain, 39.4% used)
-      .text size:   50615 bytes
-   .vectors size:    1027 bytes
-Used Flash size :  148203 bytes
-           .text:  104239 bytes
-         .rodata:   43708 bytes
-Total image size:  208509 bytes (.bin may be padded larger)
