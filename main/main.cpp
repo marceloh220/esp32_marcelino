@@ -54,6 +54,8 @@ void blink_callback(arg_t arg) {
 
     while(1) {
 
+        blink_task->delayUntil(100ms);
+
         blinkSemaphore->take();
         led_g ^= 1;
 
@@ -67,11 +69,11 @@ void print_callback(void* arg) {
 
     while (1) {
 
+        print_task->delayUntil(100ms);
+
         if(msg->receive(&msgToPrint) == pdPASS) {
             printf("%s", msgToPrint);
         }
-
-        delay(100ms);
 
     }
 

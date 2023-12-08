@@ -55,6 +55,7 @@ public:
     inline const char* name() { return _name;}
     
     inline UBaseType_t priority() { return _priority;}
+    
     inline void priority(UBaseType_t priority) { 
         _priority = priority;
         vTaskPrioritySet(_handle, priority);
