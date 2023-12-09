@@ -10,7 +10,7 @@ Queue<char*> *msg = new Queue<char*>(10);
 void blink_callback(arg_t arg);
 void print_callback(arg_t arg);
 
-Task *blink_task = new Task(blink_callback, "Blink LED G", 1);
+Task *blink_task = new Task(blink_callback, "Blink LED G", 1, Task::CORE_0);
 Task *print_task = new Task(print_callback, "Print MSG", 1);
 
 Oled *display = new Oled;

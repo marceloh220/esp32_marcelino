@@ -22,8 +22,8 @@ public:
         NO_AFINITY,
     } pinCore_t;
 
-    Task(TaskFunction_t callback, const char* name, UBaseType_t priority = 0, uint32_t stackSize = 2048, pinCore_t core = NO_AFINITY, arg_t args = NULL) :
-    _callback(callback), _name(name), _priority(priority), _stackSize(stackSize), _core(core), _args(args)
+    Task(TaskFunction_t callback, const char* name, UBaseType_t priority = 0, pinCore_t core = NO_AFINITY, uint32_t stackSize = 2048, arg_t args = NULL) :
+    _callback(callback), _name(name), _priority(priority), _core(core), _stackSize(stackSize), _args(args)
     {
         attach();
     }
@@ -77,8 +77,8 @@ private:
     TaskFunction_t _callback;
     const char * _name;
     UBaseType_t  _priority;
-    uint32_t     _stackSize;
     UBaseType_t  _core;
+    uint32_t     _stackSize;
     arg_t        _args;
     TaskHandle_t _handle;
     bool         _created = false;
